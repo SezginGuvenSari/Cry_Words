@@ -46,6 +46,7 @@ public class BoardData : ScriptableObject
     public int Colums = 0;
     public int Rows = 0;
     public BoardRow[] Board;
+    public List<SearcingWord> SearcingWords = new List<SearcingWord>();
 
     public void ClearWithEmptyString()
     {
