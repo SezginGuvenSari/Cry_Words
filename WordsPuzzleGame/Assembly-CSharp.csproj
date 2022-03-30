@@ -58,6 +58,7 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\ScriptableObjects\BoardData.cs" />
     <Compile Include="Assets\Scripts\GameUtility.cs" />
+    <Compile Include="Assets\Scripts\ScriptableObjects\AlphabetData.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
