@@ -18,38 +18,38 @@ MonoBehaviour:
   Board:
   - Size: 5
     Row:
-    - ' '
-    - ' '
-    - ' '
-    - ' '
-    - ' '
+    - X
+    - Q
+    - Q
+    - H
+    - N
   - Size: 5
     Row:
-    - ' '
-    - ' '
-    - ' '
-    - ' '
-    - ' '
+    - Q
+    - C
+    - Q
+    - Y
+    - B
   - Size: 5
     Row:
-    - ' '
-    - ' '
-    - ' '
-    - ' '
-    - ' '
+    - U
+    - P
+    - I
+    - U
+    - Y
   - Size: 5
     Row:
-    - ' '
-    - ' '
-    - ' '
-    - ' '
-    - ' '
+    - M
+    - N
+    - L
+    - Q
+    - X
   - Size: 5
     Row:
-    - ' '
-    - ' '
-    - ' '
-    - ' '
-    - ' '
+    - T
+    - F
+    - J
+    - P
+    - I
   SearcingWords:
   - Word: FUTBOL

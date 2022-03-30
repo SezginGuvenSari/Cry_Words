@@ -59,6 +59,9 @@
     <Compile Include="Assets\Scripts\ScriptableObjects\BoardData.cs" />
     <Compile Include="Assets\Scripts\GameUtility.cs" />
     <Compile Include="Assets\Scripts\ScriptableObjects\AlphabetData.cs" />
+    <Compile Include="Assets\Scripts\ScriptableObjects\GameData.cs" />
+    <Compile Include="Assets\Scripts\WordsGrid.cs" />
+    <Compile Include="Assets\Scripts\GridSquare.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
