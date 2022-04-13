@@ -63,6 +63,7 @@
     <Compile Include="Assets\Scripts\GameUtility.cs" />
     <Compile Include="Assets\Scripts\ScriptableObjects\GameData.cs" />
     <Compile Include="Assets\Scripts\GameEvents.cs" />
+    <Compile Include="Assets\Scripts\WordChecker.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

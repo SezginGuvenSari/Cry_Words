@@ -13,43 +13,128 @@ MonoBehaviour:
   m_Name: Puzzle1
   m_EditorClassIdentifier: 
   timeInSeconds: 0
-  Colums: 5
-  Rows: 5
+  Colums: 10
+  Rows: 10
   Board:
-  - Size: 5
+  - Size: 10
     Row:
-    - X
-    - Q
-    - Q
-    - H
-    - N
-  - Size: 5
-    Row:
-    - Q
-    - C
-    - Q
-    - Y
-    - B
-  - Size: 5
-    Row:
+    - F
     - U
+    - T
+    - T
+    - K
+    - S
+    - U
+    - S
+    - D
+    - A
+  - Size: 10
+    Row:
     - P
+    - L
+    - N
+    - F
+    - O
+    - J
+    - Z
+    - X
+    - X
     - I
-    - U
-    - Y
-  - Size: 5
+  - Size: 10
     Row:
+    - Y
+    - M
+    - S
+    - H
+    - B
+    - F
+    - S
+    - A
+    - W
+    - J
+  - Size: 10
+    Row:
+    - O
+    - V
+    - P
+    - A
+    - I
+    - P
+    - U
+    - R
+    - G
+    - G
+  - Size: 10
+    Row:
+    - C
+    - X
+    - I
+    - F
+    - X
+    - C
+    - M
+    - Y
+    - E
+    - X
+  - Size: 10
+    Row:
+    - A
     - M
     - N
-    - L
+    - C
+    - V
     - Q
-    - X
-  - Size: 5
+    - C
+    - O
+    - I
+    - V
+  - Size: 10
     Row:
-    - T
-    - F
-    - J
+    - G
+    - L
+    - H
     - P
     - I
+    - J
+    - D
+    - C
+    - I
+    - I
+  - Size: 10
+    Row:
+    - L
+    - W
+    - V
+    - A
+    - F
+    - Q
+    - C
+    - F
+    - D
+    - A
+  - Size: 10
+    Row:
+    - N
+    - A
+    - O
+    - P
+    - F
+    - D
+    - C
+    - F
+    - M
+    - W
+  - Size: 10
+    Row:
+    - S
+    - F
+    - L
+    - O
+    - M
+    - T
+    - X
+    - X
+    - W
+    - U
   SearcingWords:
   - Word: FUTBOL

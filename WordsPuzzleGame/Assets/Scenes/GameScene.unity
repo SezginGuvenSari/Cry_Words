@@ -133,6 +133,7 @@ GameObject:
   m_Component:
   - component: {fileID: 148449180}
   - component: {fileID: 148449179}
+  - component: {fileID: 148449181}
   m_Layer: 0
   m_Name: WordGrid
   m_TagString: Untagged
@@ -171,6 +172,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &148449181
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 148449178}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b7857734461218748a06f19e463b0a7f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  currentGameData: {fileID: 11400000, guid: 82fc5c740eaf2384bbae505dd1a8d38c, type: 2}
 --- !u!1 &266288404
 GameObject:
   m_ObjectHideFlags: 0
