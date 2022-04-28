@@ -60,10 +60,12 @@
     <Compile Include="Assets\Scripts\ScriptableObjects\BoardData.cs" />
     <Compile Include="Assets\Scripts\GridSquare.cs" />
     <Compile Include="Assets\Scripts\ScriptableObjects\AlphabetData.cs" />
-    <Compile Include="Assets\Scripts\GameUtility.cs" />
-    <Compile Include="Assets\Scripts\ScriptableObjects\GameData.cs" />
-    <Compile Include="Assets\Scripts\GameEvents.cs" />
     <Compile Include="Assets\Scripts\WordChecker.cs" />
+    <Compile Include="Assets\Scripts\GameUtility.cs" />
+    <Compile Include="Assets\Scripts\GameEvents.cs" />
+    <Compile Include="Assets\Scripts\ScriptableObjects\GameData.cs" />
+    <Compile Include="Assets\Scripts\SearchingWord.cs" />
+    <Compile Include="Assets\Scripts\SeachingWordsList.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
