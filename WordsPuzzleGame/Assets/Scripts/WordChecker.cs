@@ -100,6 +100,8 @@ public class WordChecker : MonoBehaviour
 
             if (_word == searcingWord.Word)
             {
+                GameEvents.CorrectWordMethod(_word, _correctSquareList);
+                _correctSquareList.Clear();
                 _word = string.Empty;
                 return;
             }

@@ -25,7 +25,7 @@ public class SeachingWordsList : MonoBehaviour
         if (_wordsNumber < _colums)
             _rows = 1;
         else
-            CalculateColumsAndRowsNumbers();
+        CalculateColumsAndRowsNumbers();
         CreateWordsObject();
         SetWordsPosition();
     }
@@ -72,6 +72,7 @@ public class SeachingWordsList : MonoBehaviour
             _words[index].transform.SetParent(this.transform);
             _words[index].GetComponent<RectTransform>().localScale = squareScale;
             _words[index].GetComponent<RectTransform>().localPosition = new Vector3(0f, 0f, 0f);
+            _words[index].GetComponent<SearchingWord>().SetWord(currentGameData.selectedBoardData.SearcingWords[index].Word);
         }
     }
 
