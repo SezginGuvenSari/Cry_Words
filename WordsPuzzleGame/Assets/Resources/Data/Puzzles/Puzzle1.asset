@@ -21,9 +21,9 @@ MonoBehaviour:
     - F
     - U
     - T
-    - T
-    - K
-    - S
+    - B
+    - O
+    - L
     - U
     - S
     - D
@@ -138,7 +138,7 @@ MonoBehaviour:
     - U
   SearcingWords:
   - Word: FUTBOL
-  - Word: FUTBOL
-  - Word: FUTBOL
-  - Word: FUTBOL
-  - Word: FUTBOL
+  - Word: BASKETBOL
+  - Word: VOLEYBOL
+  - Word: HENTBOL
+  - Word: SUTOPU
