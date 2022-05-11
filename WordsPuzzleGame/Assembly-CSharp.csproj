@@ -71,6 +71,7 @@
     <Compile Include="Assets\Scripts\GameDataSelect.cs" />
     <Compile Include="Assets\Scripts\SaveSystems.cs" />
     <Compile Include="Assets\Scripts\WinScreen.cs" />
+    <Compile Include="Assets\Scripts\CountTimer.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

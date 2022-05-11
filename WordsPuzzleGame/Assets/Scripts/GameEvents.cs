@@ -85,5 +85,13 @@ public static class GameEvents
             OnLoadNextLevel();
     }
     //************************************************
+    public delegate void GameOver();
+    public static event GameOver OnGameOver;
+    public static void GameOverMethod()
+    {
+        if (OnGameOver != null)
+            OnGameOver();
+    }
+    //************************************************
 
 }

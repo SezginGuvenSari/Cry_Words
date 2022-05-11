@@ -51,6 +51,7 @@ public class BoardDataDrawer : Editor
     {
 
         serializedObject.Update();
+        GameDataInstance.timeInSeconds = EditorGUILayout.FloatField("Game Timer(inSeconds)", GameDataInstance.timeInSeconds);
         DrawColumsRowsInputFields();
         EditorGUILayout.Space();
         ConvertToUpperButton();
