@@ -69,6 +69,7 @@
     <Compile Include="Assets\Scripts\ScriptableObjects\GameData.cs" />
     <Compile Include="Assets\Scripts\SelectPuzzleButton.cs" />
     <Compile Include="Assets\Scripts\GameDataSelect.cs" />
+    <Compile Include="Assets\Scripts\SaveSystems.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
