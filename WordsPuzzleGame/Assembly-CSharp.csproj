@@ -70,6 +70,7 @@
     <Compile Include="Assets\Scripts\SelectPuzzleButton.cs" />
     <Compile Include="Assets\Scripts\GameDataSelect.cs" />
     <Compile Include="Assets\Scripts\SaveSystems.cs" />
+    <Compile Include="Assets\Scripts\WinScreen.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
