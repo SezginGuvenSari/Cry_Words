@@ -56,22 +56,23 @@
     <Analyzer Include="D:\VsYeni\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Scripts\WordsGrid.cs" />
+    <Compile Include="Assets\Scripts\InGameScripts\WordsGrid.cs" />
     <Compile Include="Assets\Scripts\ScriptableObjects\BoardData.cs" />
-    <Compile Include="Assets\Scripts\GridSquare.cs" />
+    <Compile Include="Assets\Scripts\InGameScripts\GridSquare.cs" />
     <Compile Include="Assets\Scripts\ScriptableObjects\GameLevelData.cs" />
-    <Compile Include="Assets\Scripts\SearchingWord.cs" />
+    <Compile Include="Assets\Scripts\InGameScripts\SearchingWord.cs" />
     <Compile Include="Assets\Scripts\ScriptableObjects\AlphabetData.cs" />
-    <Compile Include="Assets\Scripts\WordChecker.cs" />
-    <Compile Include="Assets\Scripts\GameUtility.cs" />
-    <Compile Include="Assets\Scripts\GameEvents.cs" />
-    <Compile Include="Assets\Scripts\SeachingWordsList.cs" />
+    <Compile Include="Assets\Scripts\InGameScripts\WordChecker.cs" />
+    <Compile Include="Assets\Scripts\InGameScripts\GameUtility.cs" />
+    <Compile Include="Assets\Scripts\InGameScripts\GameEvents.cs" />
+    <Compile Include="Assets\Scripts\InGameScripts\SeachingWordsList.cs" />
     <Compile Include="Assets\Scripts\ScriptableObjects\GameData.cs" />
-    <Compile Include="Assets\Scripts\SelectPuzzleButton.cs" />
-    <Compile Include="Assets\Scripts\GameDataSelect.cs" />
-    <Compile Include="Assets\Scripts\SaveSystems.cs" />
-    <Compile Include="Assets\Scripts\WinScreen.cs" />
-    <Compile Include="Assets\Scripts\CountTimer.cs" />
+    <Compile Include="Assets\Scripts\InGameScripts\SelectPuzzleButton.cs" />
+    <Compile Include="Assets\Scripts\InGameScripts\GameDataSelect.cs" />
+    <Compile Include="Assets\Scripts\InGameScripts\SaveSystems.cs" />
+    <Compile Include="Assets\Scripts\InGameScripts\WinScreen.cs" />
+    <Compile Include="Assets\Scripts\InGameScripts\CountTimer.cs" />
+    <Compile Include="Assets\Scripts\InGameScripts\GameOverScreen.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
