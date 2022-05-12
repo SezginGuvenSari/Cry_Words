@@ -6,7 +6,7 @@ public class CountTimer : MonoBehaviour
 {
     public GameData currentGameData;
     public Text timerText;
-
+    public Text secondsText;
     private float _timeLeft;
     private float _minutes;
     private float _seconds;
@@ -53,9 +53,10 @@ public class CountTimer : MonoBehaviour
         {
             if (_timeLeft > 0)
             {
-                _minutes = Mathf.Floor(_timeLeft / 60);
+                _minutes = Mathf.Floor(_timeLeft / 60); // For example total time : 150s -> 150/60 : 2 minutes and 150 % 60 : 30s. Result = 2 : 30
                 _seconds = Mathf.RoundToInt(_timeLeft % 60);
-                timerText.text = _minutes.ToString("00") + ":" + _seconds.ToString("00");
+                timerText.text = _minutes.ToString("00");
+                secondsText.text = _seconds.ToString("00");
             }
             else
             {
@@ -71,8 +72,6 @@ public class CountTimer : MonoBehaviour
     {
         GameEvents.GameOverMethod();
         _timeOut = true;
-
-
 
     }
 

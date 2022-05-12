@@ -49,7 +49,7 @@ public class BoardDataDrawer : Editor
     }
     public override void OnInspectorGUI()
     {
-
+        
         serializedObject.Update();
         GameDataInstance.timeInSeconds = EditorGUILayout.FloatField("Game Timer(inSeconds)", GameDataInstance.timeInSeconds);
         DrawColumsRowsInputFields();

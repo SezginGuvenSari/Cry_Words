@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 1882659748724422026}
   - component: {fileID: 1882659748724422027}
   - component: {fileID: 1882659748724422020}
-  - component: {fileID: 1882659748724422021}
+  - component: {fileID: 8025743406836429593}
   m_Layer: 0
   m_Name: GridSquare
   m_TagString: Untagged
@@ -73,7 +73,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 7294a8022bc31e3458ae0d256c0b48dc, type: 3}
+  m_Sprite: {fileID: 21300000, guid: e5e2dabc4eb5b1c41b7513365297cf85, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -96,7 +96,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 552fc8d7eaed82740a78b7603bfb7319, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!65 &1882659748724422021
+--- !u!65 &8025743406836429593
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -107,5 +107,5 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.7, y: 0.7, z: 0.7}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: 0.61155087, y: 0.50356805, z: 0.2}
+  m_Center: {x: -0.005669266, y: 0.016636193, z: 0}

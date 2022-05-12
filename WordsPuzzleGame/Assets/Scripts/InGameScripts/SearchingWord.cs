@@ -36,7 +36,7 @@ public class SearchingWord : MonoBehaviour
     {
         if(word == _word)
         {
-            crossLine.gameObject.SetActive(true);
+            crossLine.gameObject.SetActive(true);   // Animation will be added here with do-tween
         }
     }
 }
