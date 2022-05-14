@@ -43,6 +43,7 @@ public class BoardData : ScriptableObject
 
 
     public float timeInSeconds;
+    public float grade1, grade2, grade3; // For stars.
     public int Colums = 0;
     public int Rows = 0;
     public BoardRow[] Board;

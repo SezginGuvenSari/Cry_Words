@@ -52,6 +52,9 @@ public class BoardDataDrawer : Editor
         
         serializedObject.Update();
         GameDataInstance.timeInSeconds = EditorGUILayout.FloatField("Game Timer(inSeconds)", GameDataInstance.timeInSeconds);
+        GameDataInstance.grade1=EditorGUILayout.FloatField("Grade 1 : ", GameDataInstance.grade1);
+        GameDataInstance.grade2=EditorGUILayout.FloatField("Grade 2 : ", GameDataInstance.grade2);
+        GameDataInstance.grade3=EditorGUILayout.FloatField("Grade 3 : ", GameDataInstance.grade3);
         DrawColumsRowsInputFields();
         EditorGUILayout.Space();
         ConvertToUpperButton();

@@ -21,7 +21,7 @@ public class WinScreen : MonoBehaviour
         GameEvents.OnBoardCompleted -= ShowWinScreen;
     }
 
-    private void ShowWinScreen()
+    public void ShowWinScreen()
     {
         winPanel.SetActive(true);
     }

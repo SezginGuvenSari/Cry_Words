@@ -13,7 +13,7 @@ public class CountTimer : MonoBehaviour
     private float _oneSecondDown;
     private bool _timeOut;
     private bool _stopTimer;
-
+    public Image ProgressTimer;
 
     void Start()
     {
@@ -41,11 +41,13 @@ public class CountTimer : MonoBehaviour
         if (_stopTimer == false)
         {
             _timeLeft -= Time.deltaTime;
+            ProgressTimer.fillAmount = _timeLeft / currentGameData.selectedBoardData.timeInSeconds;
         }
         if (_timeLeft <= _oneSecondDown)
         {
             _oneSecondDown = _timeLeft - 1f;
         }
+        
     }
     void OnGUI()
     {
@@ -57,6 +59,7 @@ public class CountTimer : MonoBehaviour
                 _seconds = Mathf.RoundToInt(_timeLeft % 60);
                 timerText.text = _minutes.ToString("00");
                 secondsText.text = _seconds.ToString("00");
+               
             }
             else
             {

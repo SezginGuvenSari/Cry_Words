@@ -230,14 +230,15 @@ public class WordChecker : MonoBehaviour
                         SceneManager.LoadScene("CategoryScene");
                     }
                 }
-                else
-                {
-                    GameEvents.BoardCompletedMethod();
-                }
-                if (loadNextCategory)
-                {
-                    GameEvents.UnlockNextCategoryMethod();
-                }
+                
+            }
+            else
+            {
+                GameEvents.BoardCompletedMethod();
+            }
+            if (loadNextCategory)
+            {
+                GameEvents.UnlockNextCategoryMethod();
             }
         }
 
