@@ -18,7 +18,7 @@ MonoBehaviour:
   Board:
   - Size: 5
     Row:
-    - S
+    - A
     - B
     - W
     - V
@@ -26,7 +26,7 @@ MonoBehaviour:
   - Size: 5
     Row:
     - Z
-    - B
+    - C
     - A
     - H
     - I
@@ -34,7 +34,7 @@ MonoBehaviour:
     Row:
     - B
     - N
-    - C
+    - B
     - N
     - D
   - Size: 5
@@ -46,12 +46,11 @@ MonoBehaviour:
     - O
   - Size: 5
     Row:
-    - K
-    - U
-    - S
+    - B
+    - C
+    - B
     - C
     - W
   SearcingWords:
-  - Word: FDFSS
-  - Word: FSDFDS
-  - Word: DFSDF
+  - Word: ACB
+  - Word: BCB

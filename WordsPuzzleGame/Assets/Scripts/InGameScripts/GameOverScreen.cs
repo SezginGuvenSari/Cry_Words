@@ -24,6 +24,6 @@ public class GameOverScreen : MonoBehaviour
     private void ShowGameOverScreen()
     {
         gameOverScreen.SetActive(true);
-        AdsButton.GetComponent<Button>().interactable = false;
+        AdsButton.GetComponent<Button>().interactable = true;
     }
 }

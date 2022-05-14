@@ -58,6 +58,7 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\InGameScripts\WordsGrid.cs" />
     <Compile Include="Assets\Scripts\ScriptableObjects\BoardData.cs" />
+    <Compile Include="Assets\Scripts\InGameScripts\SaveSystems.cs" />
     <Compile Include="Assets\Scripts\InGameScripts\GridSquare.cs" />
     <Compile Include="Assets\Scripts\ScriptableObjects\GameLevelData.cs" />
     <Compile Include="Assets\Scripts\InGameScripts\SearchingWord.cs" />
@@ -65,14 +66,14 @@
     <Compile Include="Assets\Scripts\InGameScripts\WordChecker.cs" />
     <Compile Include="Assets\Scripts\InGameScripts\GameUtility.cs" />
     <Compile Include="Assets\Scripts\InGameScripts\GameEvents.cs" />
+    <Compile Include="Assets\Scripts\InGameScripts\CountTimer.cs" />
+    <Compile Include="Assets\Scripts\InGameScripts\WinScreen.cs" />
     <Compile Include="Assets\Scripts\InGameScripts\SeachingWordsList.cs" />
     <Compile Include="Assets\Scripts\ScriptableObjects\GameData.cs" />
+    <Compile Include="Assets\Scripts\InGameScripts\GameOverScreen.cs" />
     <Compile Include="Assets\Scripts\InGameScripts\SelectPuzzleButton.cs" />
     <Compile Include="Assets\Scripts\InGameScripts\GameDataSelect.cs" />
-    <Compile Include="Assets\Scripts\InGameScripts\SaveSystems.cs" />
-    <Compile Include="Assets\Scripts\InGameScripts\WinScreen.cs" />
-    <Compile Include="Assets\Scripts\InGameScripts\CountTimer.cs" />
-    <Compile Include="Assets\Scripts\InGameScripts\GameOverScreen.cs" />
+    <Compile Include="Assets\Scripts\InGameScripts\UnlockLevelScreen.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

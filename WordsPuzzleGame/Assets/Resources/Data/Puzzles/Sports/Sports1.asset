@@ -12,130 +12,45 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9b140f2bb9611449b182b841e238fd6, type: 3}
   m_Name: Sports1
   m_EditorClassIdentifier: 
-  timeInSeconds: 50
-  Colums: 10
-  Rows: 10
+  timeInSeconds: 5
+  Colums: 5
+  Rows: 5
   Board:
-  - Size: 10
+  - Size: 5
     Row:
     - B
     - A
+    - L
+    - L
     - S
+  - Size: 5
+    Row:
     - K
-    - E
-    - T
-    - B
-    - A
-    - L
-    - L
-  - Size: 10
-    Row:
-    - F
-    - S
-    - N
-    - K
-    - F
-    - J
-    - T
-    - N
-    - A
-    - B
-  - Size: 10
-    Row:
-    - U
-    - O
-    - O
-    - E
-    - A
-    - R
-    - Y
-    - A
-    - V
-    - V
-  - Size: 10
-    Row:
-    - T
-    - K
-    - O
-    - Z
-    - Q
-    - G
-    - P
-    - D
-    - V
-    - O
-  - Size: 10
-    Row:
-    - W
-    - Y
-    - Z
-    - T
-    - L
-    - O
-    - D
-    - Q
-    - P
-    - N
-  - Size: 10
-    Row:
-    - I
-    - Y
-    - H
-    - T
-    - B
-    - R
-    - U
-    - S
-    - H
-    - R
-  - Size: 10
-    Row:
-    - G
-    - F
-    - A
-    - M
-    - F
-    - A
-    - S
-    - O
-    - R
-    - L
-  - Size: 10
-    Row:
-    - Y
-    - Z
-    - Y
-    - N
-    - X
-    - A
-    - L
-    - P
-    - R
-    - I
-  - Size: 10
-    Row:
-    - L
-    - G
-    - Y
-    - Q
-    - F
-    - V
-    - A
-    - L
-    - B
-    - P
-  - Size: 10
-    Row:
-    - J
-    - T
-    - P
-    - W
     - C
-    - O
-    - V
     - M
+    - N
+    - O
+  - Size: 5
+    Row:
+    - K
+    - S
+    - U
+    - E
+    - Q
+  - Size: 5
+    Row:
+    - C
+    - H
+    - C
+    - P
     - R
-    - T
+  - Size: 5
+    Row:
+    - P
+    - X
+    - I
+    - A
+    - H
   SearcingWords:
-  - Word: BASKETBALL
-  - Word: FOOTBALL
+  - Word: BALL
+  - Word: CUP
