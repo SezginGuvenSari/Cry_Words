@@ -60,6 +60,7 @@
     <Compile Include="Assets\Scripts\ScriptableObjects\BoardData.cs" />
     <Compile Include="Assets\Scripts\InGameScripts\SaveSystems.cs" />
     <Compile Include="Assets\Scripts\InGameScripts\GridSquare.cs" />
+    <Compile Include="Assets\Scripts\InGameScripts\UnlockLevelScreen.cs" />
     <Compile Include="Assets\Scripts\ScriptableObjects\GameLevelData.cs" />
     <Compile Include="Assets\Scripts\InGameScripts\SearchingWord.cs" />
     <Compile Include="Assets\Scripts\ScriptableObjects\AlphabetData.cs" />
@@ -73,7 +74,8 @@
     <Compile Include="Assets\Scripts\InGameScripts\GameOverScreen.cs" />
     <Compile Include="Assets\Scripts\InGameScripts\SelectPuzzleButton.cs" />
     <Compile Include="Assets\Scripts\InGameScripts\GameDataSelect.cs" />
-    <Compile Include="Assets\Scripts\InGameScripts\UnlockLevelScreen.cs" />
+    <Compile Include="Assets\Scripts\InGameScripts\SoundManager.cs" />
+    <Compile Include="Assets\Scripts\InGameScripts\SoundToggleBtn.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
@@ -289,11 +291,11 @@
     <Reference Include="UnityEditor.UnityConnectModule">
       <HintPath>D:\Unity\Editor\2020.3.10f1\Editor\Data\Managed\UnityEngine\UnityEditor.UnityConnectModule.dll</HintPath>
     </Reference>
-    <Reference Include="Newtonsoft.Json">
-      <HintPath>Library\PackageCache\com.unity.nuget.newtonsoft-json@2.0.0\Runtime\Newtonsoft.Json.dll</HintPath>
-    </Reference>
     <Reference Include="DOTween">
       <HintPath>Assets\Plugins\Demigiant\DOTween\DOTween.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>Library\PackageCache\com.unity.nuget.newtonsoft-json@2.0.0\Runtime\Newtonsoft.Json.dll</HintPath>
     </Reference>
     <Reference Include="netstandard">
       <HintPath>D:\Unity\Editor\2020.3.10f1\Editor\Data\NetStandard\ref\2.0.0\netstandard.dll</HintPath>

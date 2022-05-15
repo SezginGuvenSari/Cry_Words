@@ -40,12 +40,17 @@ public class GameUtility : MonoBehaviour
         settigsPanel.SetActive(true);
         
     }
-
-
     IEnumerator AnimPanels()
     {
         yield return new WaitForSeconds(0.5f);
         settigsPanel.SetActive(false);
-
+    }
+    public void MuteToggleMainMusic()
+    {
+        SoundManager.instance.ToggleMainMusic();
+    }
+    public void MuteSoundMusic()
+    {
+        SoundManager.instance.ToggleSound();
     }
 }

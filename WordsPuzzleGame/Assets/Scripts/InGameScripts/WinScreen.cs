@@ -5,10 +5,11 @@ using DG.Tweening;
 public class WinScreen : MonoBehaviour
 {
     public GameObject winPanel;
-
+    private AudioSource _source;
     void Start()
     {
         winPanel.SetActive(false);
+        _source = GetComponent<AudioSource>();
     }
 
 
@@ -23,13 +24,18 @@ public class WinScreen : MonoBehaviour
 
     public void ShowWinScreen()
     {
-        
+        SoundManager.instance._audioSource.Stop();
+
+      
+            
         StartCoroutine(PanelDelay());
+        
     }
 
     public void LoadNextLevel()
     {
-        GameEvents.LoadNextLevelMethod();
+        GameEvents.LoadNextLevelMethod(); 
+        SoundManager.instance._audioSource.Play();
     }
 
 
@@ -38,5 +44,7 @@ public class WinScreen : MonoBehaviour
         yield return new WaitForSeconds(1f);
         winPanel.GetComponent<RectTransform>().DOScale(1f, 1f).SetEase(Ease.OutBounce);
         winPanel.SetActive(true);
+        if (SoundManager.instance.IsSoundMuted() == false)
+            _source.Play();
     }
 }

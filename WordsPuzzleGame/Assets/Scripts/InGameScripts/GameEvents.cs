@@ -94,4 +94,13 @@ public static class GameEvents
     }
     //************************************************
 
+    public delegate void ToggleSound();
+    public static event ToggleSound OnToggleSound;
+    public static void OnToggleSoundMethod()
+    {
+        if (OnToggleSound != null)
+            OnToggleSound();
+    }
+    //************************************************
+
 }

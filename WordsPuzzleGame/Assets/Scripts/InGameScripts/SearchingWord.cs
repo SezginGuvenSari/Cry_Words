@@ -8,11 +8,10 @@ public class SearchingWord : MonoBehaviour
 
     public Text displayedText;
     private string _word;
-
-
+    private AudioSource _source;
     void Start()
     {
-        
+        _source = GetComponent<AudioSource>();
     }
 
     private void OnEnable()
@@ -36,6 +35,8 @@ public class SearchingWord : MonoBehaviour
     {
         if(word == _word)
         {
+            if (SoundManager.instance.IsSoundMuted() == false)
+                _source.Play();
             // Animation added with do-tween
             gameObject.GetComponent<RectTransform>().DOMoveY(-1.5f, 0.5f);
             gameObject.GetComponent<RectTransform>().DOScale(1.5f, 1f).SetEase(Ease.InBounce);
