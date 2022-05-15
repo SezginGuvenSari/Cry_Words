@@ -12,7 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9b140f2bb9611449b182b841e238fd6, type: 3}
   m_Name: Sports1
   m_EditorClassIdentifier: 
-  timeInSeconds: 100
+  timeInSeconds: 10
+  grade1: 0
+  grade2: 0
+  grade3: 0
   Colums: 5
   Rows: 5
   Board:

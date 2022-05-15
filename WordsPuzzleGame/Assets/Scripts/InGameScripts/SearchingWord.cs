@@ -2,11 +2,11 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using DG.Tweening;
 public class SearchingWord : MonoBehaviour
 {
 
     public Text displayedText;
-    public Image crossLine;
     private string _word;
 
 
@@ -36,7 +36,11 @@ public class SearchingWord : MonoBehaviour
     {
         if(word == _word)
         {
-            crossLine.gameObject.SetActive(true);   // Animation will be added here with do-tween
+            // Animation added with do-tween
+            gameObject.GetComponent<RectTransform>().DOMoveY(-1.5f, 0.5f);
+            gameObject.GetComponent<RectTransform>().DOScale(1.5f, 1f).SetEase(Ease.InBounce);
+            gameObject.GetComponent<CanvasGroup>().DOFade(0f,1f);
+
         }
     }
 }

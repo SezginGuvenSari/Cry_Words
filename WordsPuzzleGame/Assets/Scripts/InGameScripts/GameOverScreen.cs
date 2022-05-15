@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using DG.Tweening;
 public class GameOverScreen : MonoBehaviour
 {
     public GameObject gameOverScreen;
@@ -23,7 +24,17 @@ public class GameOverScreen : MonoBehaviour
 
     private void ShowGameOverScreen()
     {
-        gameOverScreen.SetActive(true);
+        StartCoroutine(PanelDelay());
         AdsButton.GetComponent<Button>().interactable = true;
     }
+
+
+
+    IEnumerator PanelDelay()
+    {
+        yield return new WaitForSeconds(1f);
+        gameOverScreen.GetComponent<RectTransform>().DOScale(1f, 1f).SetEase(Ease.OutBounce);
+        gameOverScreen.SetActive(true);
+    }
+
 }

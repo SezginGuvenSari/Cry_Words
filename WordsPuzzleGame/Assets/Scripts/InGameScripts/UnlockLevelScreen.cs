@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using DG.Tweening;
 public class UnlockLevelScreen : MonoBehaviour
 {
     [System.Serializable]
@@ -52,6 +53,15 @@ public class UnlockLevelScreen : MonoBehaviour
             
 
         }
+        StartCoroutine(PanelDelay());
+    }
+
+
+
+    IEnumerator PanelDelay()
+    {
+        yield return new WaitForSeconds(1f);
+        winScreen.GetComponent<RectTransform>().DOScale(1f, 1f).SetEase(Ease.OutBounce);
         winScreen.SetActive(true);
     }
 
