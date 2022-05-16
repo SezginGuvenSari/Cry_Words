@@ -106,8 +106,9 @@ public class WordChecker : MonoBehaviour
         foreach (var searcingWord in currentGameData.selectedBoardData.SearcingWords)
         {
 
-            if (_word == searcingWord.Word)
+            if (_word == searcingWord.Word  && searcingWord.Found==false)
             {
+                searcingWord.Found = true;
                 GameEvents.CorrectWordMethod(_word, _correctSquareList);
                 _completedWords++;
                 _word = string.Empty;
@@ -145,11 +146,11 @@ public class WordChecker : MonoBehaviour
         {
             return _rayDown;
         }
-        if (Mathf.Abs(direction.x - (-1f)) < tolerance && Mathf.Abs(direction.y - (1f)) < tolerance)
+        if (Mathf.Abs(direction.x - (-1f)) < tolerance && Mathf.Abs(direction.y) < tolerance)
         {
             return _rayLeft;
         }
-        if (Mathf.Abs(direction.x - 1f) < tolerance && Mathf.Abs(direction.y - (1f)) < tolerance)
+        if (Mathf.Abs(direction.x - 1f) < tolerance && Mathf.Abs(direction.y) < tolerance)
         {
             return _rayRight;
         }

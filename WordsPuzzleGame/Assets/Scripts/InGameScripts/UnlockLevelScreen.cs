@@ -18,12 +18,13 @@ public class UnlockLevelScreen : MonoBehaviour
     public List<CategoryNames> categoryNames;
     public GameObject winScreen;
     public Text categoryText;
-
+    private AudioSource _source;
 
     void Start()
     {
         winScreen.SetActive(false);
         GameEvents.OnUnlockNextCategory += OnUnlockNextCategory;
+        _source = GetComponent<AudioSource>();
 
 
     }
@@ -53,6 +54,7 @@ public class UnlockLevelScreen : MonoBehaviour
             
 
         }
+        SoundManager.instance._audioSource.Stop();
         StartCoroutine(PanelDelay());
     }
 
@@ -63,6 +65,8 @@ public class UnlockLevelScreen : MonoBehaviour
         yield return new WaitForSeconds(1f);
         winScreen.GetComponent<RectTransform>().DOScale(1f, 1f).SetEase(Ease.OutBounce);
         winScreen.SetActive(true);
+        if (SoundManager.instance.IsSoundMuted() == false)
+            _source.Play();
     }
 
 

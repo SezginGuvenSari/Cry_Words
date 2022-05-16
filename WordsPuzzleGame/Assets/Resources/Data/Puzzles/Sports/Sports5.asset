@@ -1,0 +1,76 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a9b140f2bb9611449b182b841e238fd6, type: 3}
+  m_Name: Sports5
+  m_EditorClassIdentifier: 
+  timeInSeconds: 80
+  grade1: 0
+  grade2: 0
+  grade3: 0
+  Colums: 6
+  Rows: 6
+  Board:
+  - Size: 6
+    Row:
+    - R
+    - T
+    - C
+    - H
+    - T
+    - S
+  - Size: 6
+    Row:
+    - O
+    - U
+    - W
+    - L
+    - C
+    - K
+  - Size: 6
+    Row:
+    - K
+    - Y
+    - L
+    - O
+    - M
+    - I
+  - Size: 6
+    Row:
+    - S
+    - C
+    - R
+    - E
+    - O
+    - L
+  - Size: 6
+    Row:
+    - W
+    - E
+    - Y
+    - O
+    - S
+    - L
+  - Size: 6
+    Row:
+    - C
+    - A
+    - D
+    - E
+    - L
+    - C
+  SearcingWords:
+  - Found: 0
+    Word: RULES
+  - Found: 0
+    Word: SCORE
+  - Found: 0
+    Word: SKILL

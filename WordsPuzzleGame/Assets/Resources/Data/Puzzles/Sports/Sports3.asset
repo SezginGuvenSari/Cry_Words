@@ -1,0 +1,76 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a9b140f2bb9611449b182b841e238fd6, type: 3}
+  m_Name: Sports3
+  m_EditorClassIdentifier: 
+  timeInSeconds: 80
+  grade1: 0
+  grade2: 0
+  grade3: 0
+  Colums: 6
+  Rows: 6
+  Board:
+  - Size: 6
+    Row:
+    - L
+    - L
+    - A
+    - R
+    - S
+    - L
+  - Size: 6
+    Row:
+    - Z
+    - L
+    - E
+    - E
+    - S
+    - O
+  - Size: 6
+    Row:
+    - G
+    - H
+    - G
+    - Y
+    - M
+    - B
+  - Size: 6
+    Row:
+    - O
+    - O
+    - V
+    - C
+    - D
+    - L
+  - Size: 6
+    Row:
+    - F
+    - O
+    - A
+    - X
+    - Y
+    - W
+  - Size: 6
+    Row:
+    - N
+    - Q
+    - N
+    - L
+    - H
+    - T
+  SearcingWords:
+  - Found: 0
+    Word: GOAL
+  - Found: 0
+    Word: GYM
+  - Found: 0
+    Word: LOB

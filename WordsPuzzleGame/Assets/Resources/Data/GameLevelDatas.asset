@@ -17,8 +17,18 @@ MonoBehaviour:
     boardData:
     - {fileID: 11400000, guid: 99e1cb3685ac49c4aa7c0a6616c6afc3, type: 2}
     - {fileID: 11400000, guid: 6709d00210d737245a0dcd54119a084b, type: 2}
+    - {fileID: 11400000, guid: 0041ca8228cae23479e637aab924f44a, type: 2}
+    - {fileID: 11400000, guid: 92551aa4c67781b4d8006db2dc1cc3bb, type: 2}
+    - {fileID: 11400000, guid: 8108239a828112145b8396bcd7cd1456, type: 2}
+    - {fileID: 11400000, guid: 7b7ca313cd254da4cbc1f3339c4c5a4c, type: 2}
+    - {fileID: 11400000, guid: 171a94d7a98069b4090dd2b40de332ce, type: 2}
+    - {fileID: 11400000, guid: 1a542d277eb18bc4e9483ac718168df6, type: 2}
+    - {fileID: 11400000, guid: 371768deb8d912e4ab6bcfb2699cb677, type: 2}
+    - {fileID: 11400000, guid: d44ae9d671d407c4aa1336151dceb4e8, type: 2}
   - categoryName: Science
-    boardData: []
+    boardData:
+    - {fileID: 11400000, guid: 01e466e8fc5c9e8468a25dfa92292192, type: 2}
+    - {fileID: 11400000, guid: a29c9191eb1ae3945bfb82d9da164209, type: 2}
   - categoryName: Games
     boardData: []
   - categoryName: Animals

@@ -120,12 +120,13 @@ public class GridSquare : MonoBehaviour
     public void CheckSquare()
     {
         if (_selected == false && _clicked == true)
-        {
-            if (SoundManager.instance.IsSoundMuted() == false)
-                _source.Play();
-
-            _selected = true;
+        {          
+           _selected = true;
             GameEvents.CheckSquareMethod(_normalLetterData.letter, gameObject.transform.position, _index);
+            if (SoundManager.instance.IsSoundMuted() == false)
+            {
+                _source.Play();
+            }
         }
     }
 }

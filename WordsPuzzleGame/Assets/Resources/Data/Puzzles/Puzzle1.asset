@@ -16,129 +16,89 @@ MonoBehaviour:
   grade1: 0
   grade2: 0
   grade3: 0
-  Colums: 10
-  Rows: 10
+  Colums: 8
+  Rows: 8
   Board:
-  - Size: 10
-    Row:
-    - E
-    - Y
-    - M
-    - K
-    - E
-    - T
-    - Z
-    - M
-    - E
-    - T
-  - Size: 10
+  - Size: 8
     Row:
     - U
-    - B
-    - B
-    - I
-    - Q
-    - J
-    - H
-    - T
-    - J
-    - P
-  - Size: 10
-    Row:
-    - D
-    - A
-    - A
     - F
-    - M
     - N
-    - G
-    - R
+    - S
+    - Y
     - E
+    - G
+    - Q
+  - Size: 8
+    Row:
     - H
-  - Size: 10
-    Row:
-    - Q
-    - O
-    - F
-    - F
-    - S
-    - L
-    - Z
-    - F
-    - T
+    - E
     - P
-  - Size: 10
-    Row:
-    - V
-    - R
-    - F
-    - V
-    - I
-    - A
-    - L
-    - X
-    - S
-    - V
-  - Size: 10
-    Row:
-    - B
-    - D
-    - B
-    - L
-    - N
-    - W
-    - E
-    - M
-    - J
-    - E
-  - Size: 10
-    Row:
-    - O
-    - W
-    - L
-    - Q
-    - R
-    - B
-    - V
-    - G
-    - T
-    - C
-  - Size: 10
-    Row:
-    - S
     - U
     - R
-    - I
-    - X
-    - H
-    - I
-    - T
-    - C
-    - K
-  - Size: 10
+    - A
+    - J
+    - G
+  - Size: 8
     Row:
-    - Z
-    - Q
-    - M
-    - Q
+    - A
+    - B
+    - B
+    - C
+    - H
+    - A
+    - E
     - W
-    - O
-    - Z
+  - Size: 8
+    Row:
+    - J
+    - M
+    - U
+    - K
     - Y
-    - V
     - N
-  - Size: 10
+    - R
+    - C
+  - Size: 8
+    Row:
+    - I
+    - A
+    - N
+    - H
+    - T
+    - Q
+    - J
+    - V
+  - Size: 8
     Row:
     - S
-    - D
-    - F
-    - M
-    - H
     - Q
-    - V
+    - S
+    - X
+    - M
+    - O
+    - R
     - D
+  - Size: 8
+    Row:
+    - O
+    - O
+    - K
+    - K
     - B
-    - A
+    - R
+    - G
+    - Y
+  - Size: 8
+    Row:
+    - H
+    - Y
+    - M
+    - S
+    - O
+    - J
+    - V
+    - Y
   SearcingWords:
   - Word: FUTBOL
   - Word: BASKETBOL

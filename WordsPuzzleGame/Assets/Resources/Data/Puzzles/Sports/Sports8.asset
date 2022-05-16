@@ -1,0 +1,156 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a9b140f2bb9611449b182b841e238fd6, type: 3}
+  m_Name: Sports8
+  m_EditorClassIdentifier: 
+  timeInSeconds: 60
+  grade1: 0
+  grade2: 0
+  grade3: 0
+  Colums: 10
+  Rows: 10
+  Board:
+  - Size: 10
+    Row:
+    - P
+    - Q
+    - G
+    - A
+    - S
+    - V
+    - E
+    - P
+    - T
+    - S
+  - Size: 10
+    Row:
+    - Y
+    - E
+    - K
+    - T
+    - L
+    - Z
+    - X
+    - H
+    - I
+    - E
+  - Size: 10
+    Row:
+    - T
+    - N
+    - N
+    - S
+    - O
+    - X
+    - M
+    - O
+    - E
+    - R
+  - Size: 10
+    Row:
+    - A
+    - Y
+    - C
+    - A
+    - L
+    - F
+    - F
+    - X
+    - S
+    - V
+  - Size: 10
+    Row:
+    - L
+    - A
+    - Y
+    - T
+    - L
+    - F
+    - H
+    - A
+    - E
+    - E
+  - Size: 10
+    Row:
+    - E
+    - J
+    - J
+    - W
+    - S
+    - T
+    - A
+    - U
+    - L
+    - N
+  - Size: 10
+    Row:
+    - N
+    - U
+    - B
+    - I
+    - L
+    - A
+    - Y
+    - V
+    - K
+    - W
+  - Size: 10
+    Row:
+    - T
+    - L
+    - D
+    - B
+    - D
+    - A
+    - Q
+    - H
+    - C
+    - Q
+  - Size: 10
+    Row:
+    - X
+    - E
+    - V
+    - N
+    - Q
+    - T
+    - D
+    - S
+    - A
+    - P
+  - Size: 10
+    Row:
+    - O
+    - P
+    - P
+    - O
+    - N
+    - E
+    - N
+    - T
+    - T
+    - L
+  SearcingWords:
+  - Found: 0
+    Word: PENALTY
+  - Found: 0
+    Word: SERVE
+  - Found: 0
+    Word: OPPONENT
+  - Found: 0
+    Word: OFFSIDE
+  - Found: 0
+    Word: TACKLE
+  - Found: 0
+    Word: TALENT
+  - Found: 0
+    Word: TIE

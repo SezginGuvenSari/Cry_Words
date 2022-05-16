@@ -168,6 +168,7 @@ GameObject:
   - component: {fileID: 201191255431351685}
   - component: {fileID: 2683184069509804071}
   - component: {fileID: 8937770608916535506}
+  - component: {fileID: 7458771562105358017}
   m_Layer: 5
   m_Name: SearchingWord
   m_TagString: Untagged
@@ -355,3 +356,17 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &7458771562105358017
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4139555606650825741}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86710e43de46f6f4bac7c8e50813a599, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_AspectMode: 1
+  m_AspectRatio: 3.106383

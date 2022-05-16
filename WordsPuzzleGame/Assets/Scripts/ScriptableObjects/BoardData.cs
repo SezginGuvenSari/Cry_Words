@@ -8,6 +8,8 @@ public class BoardData : ScriptableObject
     [System.Serializable]
     public class SearcingWord
     {
+        [HideInInspector]
+        public bool Found = false;
         public string Word;
     }
     [System.Serializable]

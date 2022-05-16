@@ -1,0 +1,156 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a9b140f2bb9611449b182b841e238fd6, type: 3}
+  m_Name: Sports10
+  m_EditorClassIdentifier: 
+  timeInSeconds: 60
+  grade1: 0
+  grade2: 0
+  grade3: 0
+  Colums: 10
+  Rows: 10
+  Board:
+  - Size: 10
+    Row:
+    - Y
+    - H
+    - L
+    - U
+    - A
+    - F
+    - O
+    - Y
+    - S
+    - C
+  - Size: 10
+    Row:
+    - F
+    - O
+    - O
+    - X
+    - M
+    - O
+    - U
+    - S
+    - G
+    - G
+  - Size: 10
+    Row:
+    - Z
+    - C
+    - O
+    - F
+    - L
+    - Z
+    - I
+    - U
+    - B
+    - N
+  - Size: 10
+    Row:
+    - Z
+    - K
+    - O
+    - O
+    - C
+    - A
+    - A
+    - W
+    - X
+    - I
+  - Size: 10
+    Row:
+    - W
+    - E
+    - V
+    - S
+    - K
+    - R
+    - O
+    - P
+    - S
+    - L
+  - Size: 10
+    Row:
+    - Z
+    - Y
+    - R
+    - U
+    - D
+    - R
+    - K
+    - T
+    - P
+    - R
+  - Size: 10
+    Row:
+    - E
+    - F
+    - W
+    - N
+    - H
+    - F
+    - I
+    - R
+    - K
+    - U
+  - Size: 10
+    Row:
+    - A
+    - W
+    - R
+    - T
+    - B
+    - C
+    - N
+    - V
+    - A
+    - C
+  - Size: 10
+    Row:
+    - P
+    - M
+    - F
+    - R
+    - K
+    - O
+    - L
+    - O
+    - O
+    - P
+  - Size: 10
+    Row:
+    - E
+    - X
+    - E
+    - R
+    - C
+    - I
+    - S
+    - E
+    - K
+    - V
+  SearcingWords:
+  - Found: 0
+    Word: HOCKEY
+  - Found: 0
+    Word: GUARD
+  - Found: 0
+    Word: EXERCISE
+  - Found: 0
+    Word: CURLING
+  - Found: 0
+    Word: POOL
+  - Found: 0
+    Word: STICK
+  - Found: 0
+    Word: THROW

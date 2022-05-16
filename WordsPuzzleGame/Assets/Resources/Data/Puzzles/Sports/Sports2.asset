@@ -12,45 +12,50 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9b140f2bb9611449b182b841e238fd6, type: 3}
   m_Name: Sports2
   m_EditorClassIdentifier: 
-  timeInSeconds: 100
+  timeInSeconds: 90
+  grade1: 0
+  grade2: 0
+  grade3: 0
   Colums: 5
   Rows: 5
   Board:
   - Size: 5
     Row:
-    - A
-    - B
-    - W
-    - V
+    - C
+    - O
     - U
+    - R
+    - T
   - Size: 5
     Row:
     - Z
     - C
     - A
-    - H
+    - W
     - I
   - Size: 5
     Row:
     - B
     - N
-    - B
+    - A
     - N
     - D
   - Size: 5
     Row:
     - M
-    - K
+    - R
     - X
     - O
     - O
   - Size: 5
     Row:
-    - B
+    - D
     - C
     - B
     - C
     - W
   SearcingWords:
-  - Word: ACB
-  - Word: BCB
+  - Found: 0
+    Word: COURT
+  - Found: 0
+    Word: DRAW
