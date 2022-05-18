@@ -1,0 +1,112 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a9b140f2bb9611449b182b841e238fd6, type: 3}
+  m_Name: Countries7
+  m_EditorClassIdentifier: 
+  timeInSeconds: 70
+  grade1: 0
+  grade2: 0
+  grade3: 0
+  Colums: 8
+  Rows: 8
+  Board:
+  - Size: 8
+    Row:
+    - B
+    - E
+    - L
+    - G
+    - I
+    - U
+    - M
+    - A
+  - Size: 8
+    Row:
+    - Y
+    - N
+    - X
+    - H
+    - Z
+    - Y
+    - U
+    - U
+  - Size: 8
+    Row:
+    - J
+    - N
+    - I
+    - A
+    - P
+    - S
+    - U
+    - S
+  - Size: 8
+    Row:
+    - L
+    - T
+    - H
+    - I
+    - T
+    - F
+    - T
+    - O
+  - Size: 8
+    Row:
+    - O
+    - B
+    - F
+    - R
+    - H
+    - E
+    - P
+    - F
+  - Size: 8
+    Row:
+    - S
+    - Z
+    - I
+    - R
+    - Y
+    - F
+    - Y
+    - C
+  - Size: 8
+    Row:
+    - E
+    - A
+    - V
+    - A
+    - O
+    - P
+    - G
+    - O
+  - Size: 8
+    Row:
+    - A
+    - K
+    - R
+    - A
+    - M
+    - N
+    - E
+    - D
+  SearcingWords:
+  - Found: 0
+    Word: BELGIUM
+  - Found: 0
+    Word: AUSTRIA
+  - Found: 0
+    Word: DENMARK
+  - Found: 0
+    Word: EGYPT
+  - Found: 0
+    Word: SPAIN

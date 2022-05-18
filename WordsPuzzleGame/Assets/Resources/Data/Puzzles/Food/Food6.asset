@@ -1,0 +1,112 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a9b140f2bb9611449b182b841e238fd6, type: 3}
+  m_Name: Food6
+  m_EditorClassIdentifier: 
+  timeInSeconds: 70
+  grade1: 0
+  grade2: 0
+  grade3: 0
+  Colums: 8
+  Rows: 8
+  Board:
+  - Size: 8
+    Row:
+    - C
+    - H
+    - E
+    - E
+    - S
+    - E
+    - B
+    - O
+  - Size: 8
+    Row:
+    - M
+    - F
+    - A
+    - O
+    - A
+    - F
+    - Y
+    - M
+  - Size: 8
+    Row:
+    - L
+    - B
+    - P
+    - U
+    - O
+    - S
+    - I
+    - L
+  - Size: 8
+    Row:
+    - H
+    - X
+    - A
+    - K
+    - T
+    - A
+    - G
+    - E
+  - Size: 8
+    Row:
+    - Z
+    - E
+    - Q
+    - E
+    - S
+    - A
+    - Y
+    - G
+  - Size: 8
+    Row:
+    - X
+    - J
+    - R
+    - X
+    - Y
+    - R
+    - X
+    - A
+  - Size: 8
+    Row:
+    - V
+    - M
+    - E
+    - Y
+    - D
+    - H
+    - D
+    - B
+  - Size: 8
+    Row:
+    - S
+    - E
+    - K
+    - A
+    - C
+    - N
+    - A
+    - P
+  SearcingWords:
+  - Found: 0
+    Word: BAGEL
+  - Found: 0
+    Word: CHEESE
+  - Found: 0
+    Word: PANCAKE
+  - Found: 0
+    Word: OYSTER
+  - Found: 0
+    Word: SOUP

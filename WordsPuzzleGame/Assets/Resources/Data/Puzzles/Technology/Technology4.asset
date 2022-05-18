@@ -1,0 +1,76 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a9b140f2bb9611449b182b841e238fd6, type: 3}
+  m_Name: Technology4
+  m_EditorClassIdentifier: 
+  timeInSeconds: 80
+  grade1: 0
+  grade2: 0
+  grade3: 0
+  Colums: 6
+  Rows: 6
+  Board:
+  - Size: 6
+    Row:
+    - O
+    - X
+    - P
+    - T
+    - Y
+    - B
+  - Size: 6
+    Row:
+    - N
+    - V
+    - C
+    - R
+    - L
+    - U
+  - Size: 6
+    Row:
+    - L
+    - U
+    - R
+    - M
+    - U
+    - I
+  - Size: 6
+    Row:
+    - I
+    - Y
+    - P
+    - J
+    - V
+    - L
+  - Size: 6
+    Row:
+    - N
+    - Q
+    - O
+    - E
+    - X
+    - D
+  - Size: 6
+    Row:
+    - E
+    - O
+    - R
+    - C
+    - I
+    - M
+  SearcingWords:
+  - Found: 0
+    Word: BUILD
+  - Found: 0
+    Word: MICRO
+  - Found: 0
+    Word: ONLINE

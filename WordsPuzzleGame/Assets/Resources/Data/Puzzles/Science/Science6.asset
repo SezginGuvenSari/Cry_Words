@@ -1,0 +1,112 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a9b140f2bb9611449b182b841e238fd6, type: 3}
+  m_Name: Science6
+  m_EditorClassIdentifier: 
+  timeInSeconds: 70
+  grade1: 0
+  grade2: 0
+  grade3: 0
+  Colums: 8
+  Rows: 8
+  Board:
+  - Size: 8
+    Row:
+    - N
+    - A
+    - T
+    - U
+    - R
+    - A
+    - L
+    - O
+  - Size: 8
+    Row:
+    - S
+    - S
+    - M
+    - S
+    - V
+    - H
+    - I
+    - C
+  - Size: 8
+    Row:
+    - M
+    - P
+    - W
+    - G
+    - O
+    - J
+    - G
+    - E
+  - Size: 8
+    Row:
+    - S
+    - Q
+    - R
+    - S
+    - D
+    - C
+    - H
+    - A
+  - Size: 8
+    Row:
+    - Z
+    - A
+    - T
+    - T
+    - V
+    - R
+    - T
+    - N
+  - Size: 8
+    Row:
+    - X
+    - B
+    - L
+    - J
+    - B
+    - X
+    - N
+    - F
+  - Size: 8
+    Row:
+    - B
+    - N
+    - Y
+    - E
+    - P
+    - K
+    - K
+    - X
+  - Size: 8
+    Row:
+    - Y
+    - K
+    - F
+    - S
+    - V
+    - E
+    - E
+    - I
+  SearcingWords:
+  - Found: 0
+    Word: LIGHT
+  - Found: 0
+    Word: NATURAL
+  - Found: 0
+    Word: HOST
+  - Found: 0
+    Word: LASER
+  - Found: 0
+    Word: ' OCEAN'

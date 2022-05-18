@@ -1,0 +1,112 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a9b140f2bb9611449b182b841e238fd6, type: 3}
+  m_Name: Hobbies7
+  m_EditorClassIdentifier: 
+  timeInSeconds: 70
+  grade1: 0
+  grade2: 0
+  grade3: 0
+  Colums: 8
+  Rows: 8
+  Board:
+  - Size: 8
+    Row:
+    - B
+    - C
+    - N
+    - C
+    - I
+    - G
+    - A
+    - M
+  - Size: 8
+    Row:
+    - O
+    - H
+    - G
+    - O
+    - E
+    - F
+    - N
+    - O
+  - Size: 8
+    Row:
+    - W
+    - L
+    - N
+    - J
+    - A
+    - F
+    - J
+    - D
+  - Size: 8
+    Row:
+    - L
+    - F
+    - I
+    - P
+    - C
+    - A
+    - P
+    - E
+  - Size: 8
+    Row:
+    - I
+    - Q
+    - G
+    - C
+    - C
+    - B
+    - K
+    - L
+  - Size: 8
+    Row:
+    - N
+    - T
+    - N
+    - T
+    - H
+    - K
+    - F
+    - I
+  - Size: 8
+    Row:
+    - G
+    - L
+    - I
+    - P
+    - D
+    - T
+    - W
+    - N
+  - Size: 8
+    Row:
+    - F
+    - A
+    - S
+    - H
+    - I
+    - O
+    - N
+    - G
+  SearcingWords:
+  - Found: 0
+    Word: MODELING
+  - Found: 0
+    Word: FASHION
+  - Found: 0
+    Word: SINGING
+  - Found: 0
+    Word: MAGIC
+  - Found: 0
+    Word: BOWLING

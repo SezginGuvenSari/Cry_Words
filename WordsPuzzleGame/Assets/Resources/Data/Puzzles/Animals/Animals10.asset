@@ -1,0 +1,156 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a9b140f2bb9611449b182b841e238fd6, type: 3}
+  m_Name: Animals10
+  m_EditorClassIdentifier: 
+  timeInSeconds: 60
+  grade1: 0
+  grade2: 0
+  grade3: 0
+  Colums: 10
+  Rows: 10
+  Board:
+  - Size: 10
+    Row:
+    - M
+    - T
+    - B
+    - B
+    - X
+    - Z
+    - G
+    - U
+    - P
+    - H
+  - Size: 10
+    Row:
+    - M
+    - U
+    - L
+    - E
+    - F
+    - W
+    - B
+    - U
+    - C
+    - A
+  - Size: 10
+    Row:
+    - I
+    - S
+    - O
+    - X
+    - D
+    - Q
+    - M
+    - Q
+    - V
+    - R
+  - Size: 10
+    Row:
+    - Y
+    - G
+    - Z
+    - J
+    - O
+    - A
+    - J
+    - D
+    - E
+    - E
+  - Size: 10
+    Row:
+    - N
+    - I
+    - U
+    - E
+    - D
+    - O
+    - O
+    - Y
+    - L
+    - K
+  - Size: 10
+    Row:
+    - F
+    - N
+    - I
+    - A
+    - V
+    - Q
+    - H
+    - B
+    - T
+    - W
+  - Size: 10
+    Row:
+    - M
+    - V
+    - L
+    - F
+    - N
+    - M
+    - J
+    - Q
+    - R
+    - D
+  - Size: 10
+    Row:
+    - P
+    - H
+    - G
+    - Y
+    - T
+    - A
+    - P
+    - L
+    - U
+    - J
+  - Size: 10
+    Row:
+    - E
+    - W
+    - D
+    - R
+    - A
+    - Z
+    - I
+    - L
+    - T
+    - O
+  - Size: 10
+    Row:
+    - H
+    - Z
+    - X
+    - F
+    - N
+    - O
+    - O
+    - C
+    - A
+    - R
+  SearcingWords:
+  - Found: 0
+    Word: HARE
+  - Found: 0
+    Word: MULE
+  - Found: 0
+    Word: RACOONR
+  - Found: 0
+    Word: IGUANA
+  - Found: 0
+    Word: ' TURTLE'
+  - Found: 0
+    Word: LIZARD
+  - Found: 0
+    Word: PUMA

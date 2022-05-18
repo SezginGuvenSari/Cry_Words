@@ -1,0 +1,76 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a9b140f2bb9611449b182b841e238fd6, type: 3}
+  m_Name: Animals4
+  m_EditorClassIdentifier: 
+  timeInSeconds: 80
+  grade1: 0
+  grade2: 0
+  grade3: 0
+  Colums: 6
+  Rows: 6
+  Board:
+  - Size: 6
+    Row:
+    - M
+    - O
+    - T
+    - H
+    - H
+    - S
+  - Size: 6
+    Row:
+    - R
+    - B
+    - G
+    - I
+    - U
+    - H
+  - Size: 6
+    Row:
+    - F
+    - A
+    - R
+    - V
+    - D
+    - A
+  - Size: 6
+    Row:
+    - Q
+    - W
+    - O
+    - I
+    - I
+    - R
+  - Size: 6
+    Row:
+    - L
+    - Z
+    - G
+    - V
+    - O
+    - K
+  - Size: 6
+    Row:
+    - T
+    - K
+    - R
+    - A
+    - E
+    - B
+  SearcingWords:
+  - Found: 0
+    Word: SHARK
+  - Found: 0
+    Word: MOTH
+  - Found: 0
+    Word: BEAR

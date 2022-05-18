@@ -1,0 +1,114 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a9b140f2bb9611449b182b841e238fd6, type: 3}
+  m_Name: Games6
+  m_EditorClassIdentifier: 
+  timeInSeconds: 60
+  grade1: 0
+  grade2: 0
+  grade3: 0
+  Colums: 8
+  Rows: 8
+  Board:
+  - Size: 8
+    Row:
+    - S
+    - P
+    - V
+    - K
+    - N
+    - A
+    - T
+    - N
+  - Size: 8
+    Row:
+    - U
+    - A
+    - L
+    - R
+    - K
+    - K
+    - R
+    - P
+  - Size: 8
+    Row:
+    - N
+    - Z
+    - N
+    - K
+    - O
+    - P
+    - E
+    - C
+  - Size: 8
+    Row:
+    - K
+    - B
+    - I
+    - D
+    - P
+    - X
+    - Z
+    - Z
+  - Size: 8
+    Row:
+    - V
+    - U
+    - Q
+    - A
+    - B
+    - W
+    - T
+    - F
+  - Size: 8
+    Row:
+    - F
+    - F
+    - T
+    - E
+    - Y
+    - O
+    - O
+    - A
+  - Size: 8
+    Row:
+    - V
+    - F
+    - X
+    - S
+    - I
+    - L
+    - X
+    - H
+  - Size: 8
+    Row:
+    - P
+    - V
+    - P
+    - M
+    - K
+    - A
+    - A
+    - A
+  SearcingWords:
+  - Found: 0
+    Word: NPC
+  - Found: 0
+    Word: PVP
+  - Found: 0
+    Word: SANDBOX
+  - Found: 0
+    Word: TANK
+  - Found: 0
+    Word: BUFF
+  - Found: 0
+    Word: AAA

@@ -1,0 +1,76 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a9b140f2bb9611449b182b841e238fd6, type: 3}
+  m_Name: Animals5
+  m_EditorClassIdentifier: 
+  timeInSeconds: 80
+  grade1: 0
+  grade2: 0
+  grade3: 0
+  Colums: 6
+  Rows: 6
+  Board:
+  - Size: 6
+    Row:
+    - L
+    - I
+    - O
+    - N
+    - O
+    - F
+  - Size: 6
+    Row:
+    - L
+    - O
+    - U
+    - C
+    - D
+    - O
+  - Size: 6
+    Row:
+    - D
+    - Q
+    - H
+    - C
+    - T
+    - X
+  - Size: 6
+    Row:
+    - D
+    - Y
+    - P
+    - I
+    - G
+    - G
+  - Size: 6
+    Row:
+    - N
+    - W
+    - R
+    - B
+    - Q
+    - G
+  - Size: 6
+    Row:
+    - H
+    - A
+    - R
+    - T
+    - W
+    - F
+  SearcingWords:
+  - Found: 0
+    Word: HART
+  - Found: 0
+    Word: FOX
+  - Found: 0
+    Word: LION

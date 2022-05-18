@@ -1,0 +1,112 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a9b140f2bb9611449b182b841e238fd6, type: 3}
+  m_Name: Animals7
+  m_EditorClassIdentifier: 
+  timeInSeconds: 70
+  grade1: 0
+  grade2: 0
+  grade3: 0
+  Colums: 8
+  Rows: 8
+  Board:
+  - Size: 8
+    Row:
+    - C
+    - R
+    - L
+    - I
+    - A
+    - N
+    - S
+    - Z
+  - Size: 8
+    Row:
+    - C
+    - Q
+    - Z
+    - J
+    - H
+    - N
+    - E
+    - O
+  - Size: 8
+    Row:
+    - I
+    - J
+    - W
+    - C
+    - A
+    - B
+    - O
+    - A
+  - Size: 8
+    Row:
+    - S
+    - I
+    - E
+    - K
+    - R
+    - Z
+    - B
+    - E
+  - Size: 8
+    Row:
+    - J
+    - R
+    - E
+    - A
+    - O
+    - F
+    - Q
+    - A
+  - Size: 8
+    Row:
+    - V
+    - I
+    - K
+    - B
+    - D
+    - Q
+    - K
+    - D
+  - Size: 8
+    Row:
+    - T
+    - S
+    - G
+    - N
+    - O
+    - D
+    - J
+    - E
+  - Size: 8
+    Row:
+    - C
+    - M
+    - X
+    - H
+    - C
+    - E
+    - E
+    - L
+  SearcingWords:
+  - Found: 0
+    Word: ZEBRA
+  - Found: 0
+    Word: BOA
+  - Found: 0
+    Word: SNAIL
+  - Found: 0
+    Word: SNAKE
+  - Found: 0
+    Word: LEECH

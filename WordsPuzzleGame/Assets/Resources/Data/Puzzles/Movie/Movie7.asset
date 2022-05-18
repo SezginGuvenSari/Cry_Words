@@ -1,0 +1,112 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a9b140f2bb9611449b182b841e238fd6, type: 3}
+  m_Name: Movie7
+  m_EditorClassIdentifier: 
+  timeInSeconds: 70
+  grade1: 0
+  grade2: 0
+  grade3: 0
+  Colums: 8
+  Rows: 8
+  Board:
+  - Size: 8
+    Row:
+    - K
+    - S
+    - T
+    - I
+    - D
+    - E
+    - R
+    - C
+  - Size: 8
+    Row:
+    - S
+    - E
+    - L
+    - R
+    - Y
+    - H
+    - Z
+    - R
+  - Size: 8
+    Row:
+    - Q
+    - A
+    - O
+    - L
+    - M
+    - P
+    - K
+    - E
+  - Size: 8
+    Row:
+    - T
+    - T
+    - M
+    - F
+    - R
+    - R
+    - Q
+    - L
+  - Size: 8
+    Row:
+    - P
+    - K
+    - T
+    - O
+    - R
+    - L
+    - I
+    - I
+  - Size: 8
+    Row:
+    - Q
+    - E
+    - P
+    - T
+    - J
+    - B
+    - N
+    - A
+  - Size: 8
+    Row:
+    - A
+    - N
+    - F
+    - C
+    - T
+    - V
+    - V
+    - R
+  - Size: 8
+    Row:
+    - T
+    - I
+    - C
+    - K
+    - E
+    - T
+    - S
+    - T
+  SearcingWords:
+  - Found: 0
+    Word: TRAILER
+  - Found: 0
+    Word: CREDITS
+  - Found: 0
+    Word: PROP
+  - Found: 0
+    Word: SEAT
+  - Found: 0
+    Word: TICKETS

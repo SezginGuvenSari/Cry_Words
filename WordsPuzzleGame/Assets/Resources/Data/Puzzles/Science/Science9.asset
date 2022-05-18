@@ -1,0 +1,156 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a9b140f2bb9611449b182b841e238fd6, type: 3}
+  m_Name: Science9
+  m_EditorClassIdentifier: 
+  timeInSeconds: 60
+  grade1: 0
+  grade2: 0
+  grade3: 0
+  Colums: 10
+  Rows: 10
+  Board:
+  - Size: 10
+    Row:
+    - A
+    - I
+    - N
+    - P
+    - A
+    - C
+    - T
+    - B
+    - F
+    - B
+  - Size: 10
+    Row:
+    - R
+    - N
+    - Z
+    - B
+    - G
+    - O
+    - S
+    - J
+    - E
+    - K
+  - Size: 10
+    Row:
+    - C
+    - H
+    - N
+    - K
+    - X
+    - O
+    - J
+    - T
+    - N
+    - R
+  - Size: 10
+    Row:
+    - T
+    - K
+    - Q
+    - S
+    - E
+    - Y
+    - E
+    - O
+    - T
+    - O
+  - Size: 10
+    Row:
+    - A
+    - X
+    - E
+    - O
+    - B
+    - L
+    - T
+    - R
+    - S
+    - T
+  - Size: 10
+    Row:
+    - R
+    - R
+    - V
+    - P
+    - G
+    - A
+    - O
+    - A
+    - T
+    - A
+  - Size: 10
+    Row:
+    - U
+    - V
+    - S
+    - E
+    - J
+    - V
+    - O
+    - H
+    - E
+    - D
+  - Size: 10
+    Row:
+    - S
+    - U
+    - U
+    - G
+    - M
+    - A
+    - U
+    - K
+    - G
+    - E
+  - Size: 10
+    Row:
+    - D
+    - S
+    - P
+    - S
+    - F
+    - Z
+    - A
+    - N
+    - H
+    - R
+  - Size: 10
+    Row:
+    - E
+    - L
+    - F
+    - H
+    - L
+    - O
+    - A
+    - D
+    - B
+    - P
+  SearcingWords:
+  - Found: 0
+    Word: PREDATOR
+  - Found: 0
+    Word: LOAD
+  - Found: 0
+    Word: KNOT
+  - Found: 0
+    Word: BETELGEUSE
+  - Found: 0
+    Word: ARCTURUS
+  - Found: 0
+    Word: IMPACT
+  - Found: 0
+    Word: LAVA

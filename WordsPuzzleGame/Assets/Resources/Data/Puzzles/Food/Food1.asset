@@ -1,0 +1,61 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a9b140f2bb9611449b182b841e238fd6, type: 3}
+  m_Name: Food1
+  m_EditorClassIdentifier: 
+  timeInSeconds: 90
+  grade1: 0
+  grade2: 0
+  grade3: 0
+  Colums: 5
+  Rows: 5
+  Board:
+  - Size: 5
+    Row:
+    - C
+    - A
+    - K
+    - E
+    - B
+  - Size: 5
+    Row:
+    - C
+    - N
+    - I
+    - P
+    - E
+  - Size: 5
+    Row:
+    - P
+    - F
+    - S
+    - M
+    - E
+  - Size: 5
+    Row:
+    - V
+    - C
+    - B
+    - N
+    - R
+  - Size: 5
+    Row:
+    - X
+    - J
+    - A
+    - Q
+    - O
+  SearcingWords:
+  - Found: 0
+    Word: CAKE
+  - Found: 0
+    Word: BEER

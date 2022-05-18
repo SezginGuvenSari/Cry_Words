@@ -1,0 +1,112 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a9b140f2bb9611449b182b841e238fd6, type: 3}
+  m_Name: Technology6
+  m_EditorClassIdentifier: 
+  timeInSeconds: 70
+  grade1: 0
+  grade2: 0
+  grade3: 0
+  Colums: 8
+  Rows: 8
+  Board:
+  - Size: 8
+    Row:
+    - C
+    - O
+    - M
+    - P
+    - U
+    - T
+    - E
+    - R
+  - Size: 8
+    Row:
+    - E
+    - S
+    - V
+    - Y
+    - C
+    - R
+    - V
+    - S
+  - Size: 8
+    Row:
+    - V
+    - O
+    - C
+    - T
+    - H
+    - A
+    - S
+    - X
+  - Size: 8
+    Row:
+    - O
+    - T
+    - C
+    - I
+    - I
+    - F
+    - X
+    - W
+  - Size: 8
+    Row:
+    - L
+    - E
+    - C
+    - U
+    - N
+    - R
+    - K
+    - Z
+  - Size: 8
+    Row:
+    - V
+    - X
+    - R
+    - K
+    - H
+    - O
+    - P
+    - C
+  - Size: 8
+    Row:
+    - E
+    - C
+    - K
+    - O
+    - G
+    - V
+    - I
+    - P
+  - Size: 8
+    Row:
+    - D
+    - E
+    - V
+    - I
+    - C
+    - E
+    - S
+    - B
+  SearcingWords:
+  - Found: 0
+    Word: COMPUTER
+  - Found: 0
+    Word: DEVICES
+  - Found: 0
+    Word: BIONICS
+  - Found: 0
+    Word: EVOLVE
+  - Found: 0
+    Word: CORE

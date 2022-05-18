@@ -7232,6 +7232,14 @@ public:
 
 // System.Void System.Collections.Generic.List`1<System.Object>::.ctor()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void List_1__ctor_m0F0E00088CF56FEACC9E32D8B7D91B93D91DAA3B_gshared (List_1_t3F94120C77410A62EAE48421CF166B83AB95A2F5 * __this, const RuntimeMethod* method);
+// System.Collections.Generic.List`1/Enumerator<!0> System.Collections.Generic.List`1<System.Object>::GetEnumerator()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Enumerator_tB6009981BD4E3881E3EC83627255A24198F902D6  List_1_GetEnumerator_m1739A5E25DF502A6984F9B98CFCAC2D3FABCF233_gshared (List_1_t3F94120C77410A62EAE48421CF166B83AB95A2F5 * __this, const RuntimeMethod* method);
+// !0 System.Collections.Generic.List`1/Enumerator<System.Object>::get_Current()
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR RuntimeObject * Enumerator_get_Current_m9C4EBBD2108B51885E750F927D7936290C8E20EE_gshared_inline (Enumerator_tB6009981BD4E3881E3EC83627255A24198F902D6 * __this, const RuntimeMethod* method);
+// System.Boolean System.Collections.Generic.List`1/Enumerator<System.Object>::MoveNext()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Enumerator_MoveNext_m2E56233762839CE55C67E00AC8DD3D4D3F6C0DF0_gshared (Enumerator_tB6009981BD4E3881E3EC83627255A24198F902D6 * __this, const RuntimeMethod* method);
+// System.Void System.Collections.Generic.List`1/Enumerator<System.Object>::Dispose()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Enumerator_Dispose_mCFB225D9E5E597A1CC8F958E53BEA1367D8AC7B8_gshared (Enumerator_tB6009981BD4E3881E3EC83627255A24198F902D6 * __this, const RuntimeMethod* method);
 // System.Collections.Generic.List`1/Enumerator<!0> System.Collections.Generic.List`1<GameLevelData/CategoryRecord>::GetEnumerator()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Enumerator_t959538989D821B7268A5113AF06D7DCD774ADE18  List_1_GetEnumerator_m3208DD260F9D6EF28AEDA8246E3CF448E5306F5E_gshared (List_1_tC2A168BF0A7B23822EB047EE892C4C34AFBC48E8 * __this, const RuntimeMethod* method);
 // !0 System.Collections.Generic.List`1/Enumerator<GameLevelData/CategoryRecord>::get_Current()
@@ -7258,14 +7266,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR CategoryRecord_t6641AD037A579EF6C
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject * Object_Instantiate_TisRuntimeObject_m4039C8E65629D33E1EC84D2505BF1D5DDC936622_gshared (RuntimeObject * ___original0, const RuntimeMethod* method);
 // System.Void System.Collections.Generic.List`1<System.Object>::Add(!0)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void List_1_Add_mE5B3CBB3A625606D9BC4337FEAAF1D66BCB6F96E_gshared (List_1_t3F94120C77410A62EAE48421CF166B83AB95A2F5 * __this, RuntimeObject * ___item0, const RuntimeMethod* method);
-// System.Collections.Generic.List`1/Enumerator<!0> System.Collections.Generic.List`1<System.Object>::GetEnumerator()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Enumerator_tB6009981BD4E3881E3EC83627255A24198F902D6  List_1_GetEnumerator_m1739A5E25DF502A6984F9B98CFCAC2D3FABCF233_gshared (List_1_t3F94120C77410A62EAE48421CF166B83AB95A2F5 * __this, const RuntimeMethod* method);
-// !0 System.Collections.Generic.List`1/Enumerator<System.Object>::get_Current()
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR RuntimeObject * Enumerator_get_Current_m9C4EBBD2108B51885E750F927D7936290C8E20EE_gshared_inline (Enumerator_tB6009981BD4E3881E3EC83627255A24198F902D6 * __this, const RuntimeMethod* method);
-// System.Boolean System.Collections.Generic.List`1/Enumerator<System.Object>::MoveNext()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Enumerator_MoveNext_m2E56233762839CE55C67E00AC8DD3D4D3F6C0DF0_gshared (Enumerator_tB6009981BD4E3881E3EC83627255A24198F902D6 * __this, const RuntimeMethod* method);
-// System.Void System.Collections.Generic.List`1/Enumerator<System.Object>::Dispose()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Enumerator_Dispose_mCFB225D9E5E597A1CC8F958E53BEA1367D8AC7B8_gshared (Enumerator_tB6009981BD4E3881E3EC83627255A24198F902D6 * __this, const RuntimeMethod* method);
 // System.Collections.Generic.List`1/Enumerator<!0> System.Collections.Generic.List`1<UnlockLevelScreen/CategoryNames>::GetEnumerator()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Enumerator_tAE3365B6832A80112953F747D9E469D96BBEBB5C  List_1_GetEnumerator_m55C06677AB82E218DEF279B116FC2AEDEFADD7AC_gshared (List_1_tDD29283408B50139FB6E7EA6F3B6F5A76DBAC5BC * __this, const RuntimeMethod* method);
 // !0 System.Collections.Generic.List`1/Enumerator<UnlockLevelScreen/CategoryNames>::get_Current()
@@ -7294,6 +7294,26 @@ inline void List_1__ctor_m075FD6621E4E4A8D60E22856D323C67E7DD2644A (List_1_tCC15
 }
 // System.Void UnityEngine.ScriptableObject::.ctor()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ScriptableObject__ctor_m8DAE6CDCFA34E16F2543B02CC3669669FF203063 (ScriptableObject_t4361E08CEBF052C650D3666C7CEC37EB31DE116A * __this, const RuntimeMethod* method);
+// System.Collections.Generic.List`1/Enumerator<!0> System.Collections.Generic.List`1<BoardData/SearcingWord>::GetEnumerator()
+inline Enumerator_t7369EBADECA4BE8279273E142F05ACA625FD446B  List_1_GetEnumerator_m0486DD11A00771959FE4C76DC81AF875A9AF5552 (List_1_tF5C421F7AC16696EABFD6CDA58630115085FC1BD * __this, const RuntimeMethod* method)
+{
+	return ((  Enumerator_t7369EBADECA4BE8279273E142F05ACA625FD446B  (*) (List_1_tF5C421F7AC16696EABFD6CDA58630115085FC1BD *, const RuntimeMethod*))List_1_GetEnumerator_m1739A5E25DF502A6984F9B98CFCAC2D3FABCF233_gshared)(__this, method);
+}
+// !0 System.Collections.Generic.List`1/Enumerator<BoardData/SearcingWord>::get_Current()
+inline SearcingWord_t9145835F30824FD1C4B13E156325B689C45BDA3C * Enumerator_get_Current_m4C4538A398E0F470C57C3F0CD14B4933E079E1F2_inline (Enumerator_t7369EBADECA4BE8279273E142F05ACA625FD446B * __this, const RuntimeMethod* method)
+{
+	return ((  SearcingWord_t9145835F30824FD1C4B13E156325B689C45BDA3C * (*) (Enumerator_t7369EBADECA4BE8279273E142F05ACA625FD446B *, const RuntimeMethod*))Enumerator_get_Current_m9C4EBBD2108B51885E750F927D7936290C8E20EE_gshared_inline)(__this, method);
+}
+// System.Boolean System.Collections.Generic.List`1/Enumerator<BoardData/SearcingWord>::MoveNext()
+inline bool Enumerator_MoveNext_m17581B1CA2912C8D1A263C8A928491B0804071BD (Enumerator_t7369EBADECA4BE8279273E142F05ACA625FD446B * __this, const RuntimeMethod* method)
+{
+	return ((  bool (*) (Enumerator_t7369EBADECA4BE8279273E142F05ACA625FD446B *, const RuntimeMethod*))Enumerator_MoveNext_m2E56233762839CE55C67E00AC8DD3D4D3F6C0DF0_gshared)(__this, method);
+}
+// System.Void System.Collections.Generic.List`1/Enumerator<BoardData/SearcingWord>::Dispose()
+inline void Enumerator_Dispose_mC5A9159EFBE0D5B6B505347DB60EF9F19FC0E107 (Enumerator_t7369EBADECA4BE8279273E142F05ACA625FD446B * __this, const RuntimeMethod* method)
+{
+	((  void (*) (Enumerator_t7369EBADECA4BE8279273E142F05ACA625FD446B *, const RuntimeMethod*))Enumerator_Dispose_mCFB225D9E5E597A1CC8F958E53BEA1367D8AC7B8_gshared)(__this, method);
+}
 // System.Void BoardData/BoardRow::ClearRow()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BoardRow_ClearRow_m429BF67E86F9C2C7FF7A7BBE0622FA9639102C33 (BoardRow_t7732A4BE42ABDF138D33BC7C684B19613A71192A * __this, const RuntimeMethod* method);
 // System.Void BoardData/BoardRow::.ctor(System.Int32)
@@ -7717,6 +7737,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameEvents_remove_OnCheckSquare_mC01ACBA
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameEvents_remove_OnCleaerSelection_mC7A45AD73C1D104F76A9725FD70C66AA5CEFA315 (ClearSelection_t308DEC08887A34F757310C2338F5D2FE1A0DA7A1 * ___value0, const RuntimeMethod* method);
 // System.Void GameEvents::remove_OnLoadNextLevel(GameEvents/LoadNextLevel)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameEvents_remove_OnLoadNextLevel_mDE99F77608B8E4AEB93C78FE6F72E7793A66C0E8 (LoadNextLevel_t9BEC531B54D149CF7B0C83112A7358776AE3937F * ___value0, const RuntimeMethod* method);
+// System.Void BoardData::ClearData()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BoardData_ClearData_m17E0F46BDAA4B9F27266A98CC5765590AA99E3CB (BoardData_t9C17F3B569738ADEE98047346831940A06B80AAC * __this, const RuntimeMethod* method);
 // System.Boolean UnityEngine.Application::get_isEditor()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Application_get_isEditor_m7367DDB72F13E4846E8EB76FFAAACA84840BE921 (const RuntimeMethod* method);
 // UnityEngine.Vector3 UnityEngine.Ray::get_origin()
@@ -7746,16 +7768,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameEvents_SelectSquareMethod_m6194E84AA
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WordChecker_CheckWord_m86AAEA32635906AFE8324F2C97D07157CC3D1331 (WordChecker_t80FF7316EF598BA79ACA68902DE3305C32EC867A * __this, const RuntimeMethod* method);
 // System.Boolean WordChecker::IsPointOnTheRay(UnityEngine.Ray,UnityEngine.Vector3)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool WordChecker_IsPointOnTheRay_m294B03A62B399F58C36338BCCE509A24DBBD3B6F (WordChecker_t80FF7316EF598BA79ACA68902DE3305C32EC867A * __this, Ray_t2E9E67CC8B03EE6ED2BBF3D2C9C96DDF70E1D5E6  ___currentRay0, Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E  ___point1, const RuntimeMethod* method);
-// System.Collections.Generic.List`1/Enumerator<!0> System.Collections.Generic.List`1<BoardData/SearcingWord>::GetEnumerator()
-inline Enumerator_t7369EBADECA4BE8279273E142F05ACA625FD446B  List_1_GetEnumerator_m0486DD11A00771959FE4C76DC81AF875A9AF5552 (List_1_tF5C421F7AC16696EABFD6CDA58630115085FC1BD * __this, const RuntimeMethod* method)
-{
-	return ((  Enumerator_t7369EBADECA4BE8279273E142F05ACA625FD446B  (*) (List_1_tF5C421F7AC16696EABFD6CDA58630115085FC1BD *, const RuntimeMethod*))List_1_GetEnumerator_m1739A5E25DF502A6984F9B98CFCAC2D3FABCF233_gshared)(__this, method);
-}
-// !0 System.Collections.Generic.List`1/Enumerator<BoardData/SearcingWord>::get_Current()
-inline SearcingWord_t9145835F30824FD1C4B13E156325B689C45BDA3C * Enumerator_get_Current_m4C4538A398E0F470C57C3F0CD14B4933E079E1F2_inline (Enumerator_t7369EBADECA4BE8279273E142F05ACA625FD446B * __this, const RuntimeMethod* method)
-{
-	return ((  SearcingWord_t9145835F30824FD1C4B13E156325B689C45BDA3C * (*) (Enumerator_t7369EBADECA4BE8279273E142F05ACA625FD446B *, const RuntimeMethod*))Enumerator_get_Current_m9C4EBBD2108B51885E750F927D7936290C8E20EE_gshared_inline)(__this, method);
-}
 // System.Void GameEvents::CorrectWordMethod(System.String,System.Collections.Generic.List`1<System.Int32>)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameEvents_CorrectWordMethod_m149AD60307E9DB05A920B972EB4448F4A0D7A288 (String_t* ___word0, List_1_t260B41F956D673396C33A4CF94E8D6C4389EACB7 * ___squareIndexes1, const RuntimeMethod* method);
 // System.Void System.Collections.Generic.List`1<System.Int32>::Clear()
@@ -7765,16 +7777,6 @@ inline void List_1_Clear_m508B72E5229FAE7042D99A04555F66F10C597C7A (List_1_t260B
 }
 // System.Void WordChecker::CheckBoardCompleted()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WordChecker_CheckBoardCompleted_m4FB887B7436ED72B6BD29690A4BF3CC297AB7FD1 (WordChecker_t80FF7316EF598BA79ACA68902DE3305C32EC867A * __this, const RuntimeMethod* method);
-// System.Boolean System.Collections.Generic.List`1/Enumerator<BoardData/SearcingWord>::MoveNext()
-inline bool Enumerator_MoveNext_m17581B1CA2912C8D1A263C8A928491B0804071BD (Enumerator_t7369EBADECA4BE8279273E142F05ACA625FD446B * __this, const RuntimeMethod* method)
-{
-	return ((  bool (*) (Enumerator_t7369EBADECA4BE8279273E142F05ACA625FD446B *, const RuntimeMethod*))Enumerator_MoveNext_m2E56233762839CE55C67E00AC8DD3D4D3F6C0DF0_gshared)(__this, method);
-}
-// System.Void System.Collections.Generic.List`1/Enumerator<BoardData/SearcingWord>::Dispose()
-inline void Enumerator_Dispose_mC5A9159EFBE0D5B6B505347DB60EF9F19FC0E107 (Enumerator_t7369EBADECA4BE8279273E142F05ACA625FD446B * __this, const RuntimeMethod* method)
-{
-	((  void (*) (Enumerator_t7369EBADECA4BE8279273E142F05ACA625FD446B *, const RuntimeMethod*))Enumerator_Dispose_mCFB225D9E5E597A1CC8F958E53BEA1367D8AC7B8_gshared)(__this, method);
-}
 // UnityEngine.RaycastHit[] UnityEngine.Physics::RaycastAll(UnityEngine.Ray,System.Single)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RaycastHitU5BU5D_t6778DB95346906446AAD3A1A36904F1846435A09* Physics_RaycastAll_m72947571EFB0EFB34E48340AA2EC0C8030D27C50 (Ray_t2E9E67CC8B03EE6ED2BBF3D2C9C96DDF70E1D5E6  ___ray0, float ___maxDistance1, const RuntimeMethod* method);
 // UnityEngine.Transform UnityEngine.RaycastHit::get_transform()
@@ -7925,6 +7927,87 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AlphabetData__ctor_mE0E91E96E0D74FF386E4
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
+// System.Void BoardData::ClearData()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BoardData_ClearData_m17E0F46BDAA4B9F27266A98CC5765590AA99E3CB (BoardData_t9C17F3B569738ADEE98047346831940A06B80AAC * __this, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Enumerator_Dispose_mC5A9159EFBE0D5B6B505347DB60EF9F19FC0E107_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Enumerator_MoveNext_m17581B1CA2912C8D1A263C8A928491B0804071BD_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Enumerator_get_Current_m4C4538A398E0F470C57C3F0CD14B4933E079E1F2_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_GetEnumerator_m0486DD11A00771959FE4C76DC81AF875A9AF5552_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Enumerator_t7369EBADECA4BE8279273E142F05ACA625FD446B  V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	Exception_t * __last_unhandled_exception = 0;
+	il2cpp::utils::ExceptionSupportStack<int32_t, 1> __leave_targets;
+	{
+		// foreach (var word in SearcingWords)
+		List_1_tF5C421F7AC16696EABFD6CDA58630115085FC1BD * L_0 = __this->get_SearcingWords_11();
+		NullCheck(L_0);
+		Enumerator_t7369EBADECA4BE8279273E142F05ACA625FD446B  L_1;
+		L_1 = List_1_GetEnumerator_m0486DD11A00771959FE4C76DC81AF875A9AF5552(L_0, /*hidden argument*/List_1_GetEnumerator_m0486DD11A00771959FE4C76DC81AF875A9AF5552_RuntimeMethod_var);
+		V_0 = L_1;
+	}
+
+IL_000c:
+	try
+	{ // begin try (depth: 1)
+		{
+			goto IL_001b;
+		}
+
+IL_000e:
+		{
+			// foreach (var word in SearcingWords)
+			SearcingWord_t9145835F30824FD1C4B13E156325B689C45BDA3C * L_2;
+			L_2 = Enumerator_get_Current_m4C4538A398E0F470C57C3F0CD14B4933E079E1F2_inline((Enumerator_t7369EBADECA4BE8279273E142F05ACA625FD446B *)(&V_0), /*hidden argument*/Enumerator_get_Current_m4C4538A398E0F470C57C3F0CD14B4933E079E1F2_RuntimeMethod_var);
+			// word.Found = false;
+			NullCheck(L_2);
+			L_2->set_Found_0((bool)0);
+		}
+
+IL_001b:
+		{
+			// foreach (var word in SearcingWords)
+			bool L_3;
+			L_3 = Enumerator_MoveNext_m17581B1CA2912C8D1A263C8A928491B0804071BD((Enumerator_t7369EBADECA4BE8279273E142F05ACA625FD446B *)(&V_0), /*hidden argument*/Enumerator_MoveNext_m17581B1CA2912C8D1A263C8A928491B0804071BD_RuntimeMethod_var);
+			if (L_3)
+			{
+				goto IL_000e;
+			}
+		}
+
+IL_0024:
+		{
+			IL2CPP_LEAVE(0x34, FINALLY_0026);
+		}
+	} // end try (depth: 1)
+	catch(Il2CppExceptionWrapper& e)
+	{
+		__last_unhandled_exception = (Exception_t *)e.ex;
+		goto FINALLY_0026;
+	}
+
+FINALLY_0026:
+	{ // begin finally (depth: 1)
+		Enumerator_Dispose_mC5A9159EFBE0D5B6B505347DB60EF9F19FC0E107((Enumerator_t7369EBADECA4BE8279273E142F05ACA625FD446B *)(&V_0), /*hidden argument*/Enumerator_Dispose_mC5A9159EFBE0D5B6B505347DB60EF9F19FC0E107_RuntimeMethod_var);
+		IL2CPP_END_FINALLY(38)
+	} // end finally (depth: 1)
+	IL2CPP_CLEANUP(38)
+	{
+		IL2CPP_RETHROW_IF_UNHANDLED(Exception_t *)
+		IL2CPP_JUMP_TBL(0x34, IL_0034)
+	}
+
+IL_0034:
+	{
+		// }
+		return;
+	}
+}
 // System.Void BoardData::ClearWithEmptyString()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BoardData_ClearWithEmptyString_m3FF1510C8BC3F05C20533F8946A521C883B0FBF0 (BoardData_t9C17F3B569738ADEE98047346831940A06B80AAC * __this, const RuntimeMethod* method)
 {
@@ -12823,6 +12906,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WordChecker_LoadNextGameLevel_m66A305F0E
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WordChecker_Start_m46916234D92D81CD242F90C877D346BE144AF68B (WordChecker_t80FF7316EF598BA79ACA68902DE3305C32EC867A * __this, const RuntimeMethod* method)
 {
 	{
+		// currentGameData.selectedBoardData.ClearData();
+		GameData_tBB3875760FC6FBB28B9D4694716D4C0E19EED1CD * L_0 = __this->get_currentGameData_4();
+		NullCheck(L_0);
+		BoardData_t9C17F3B569738ADEE98047346831940A06B80AAC * L_1 = L_0->get_selectedBoardData_5();
+		NullCheck(L_1);
+		BoardData_ClearData_m17E0F46BDAA4B9F27266A98CC5765590AA99E3CB(L_1, /*hidden argument*/NULL);
 		// _assignedPoints = 0;
 		__this->set__assignedPoints_7(0);
 		// _completedWords = 0;
@@ -17069,6 +17158,13 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void GridSquare_SetIndex_mFD940CF
 		return;
 	}
 }
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR RuntimeObject * Enumerator_get_Current_m9C4EBBD2108B51885E750F927D7936290C8E20EE_gshared_inline (Enumerator_tB6009981BD4E3881E3EC83627255A24198F902D6 * __this, const RuntimeMethod* method)
+{
+	{
+		RuntimeObject * L_0 = (RuntimeObject *)__this->get_current_3();
+		return (RuntimeObject *)L_0;
+	}
+}
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR CategoryRecord_t6641AD037A579EF6CA390C921BED1B4CC043163F  Enumerator_get_Current_m30A264F0B6A717CD00FE7D7C3BAF90B891906C94_gshared_inline (Enumerator_t959538989D821B7268A5113AF06D7DCD774ADE18 * __this, const RuntimeMethod* method)
 {
 	{
@@ -17127,13 +17223,6 @@ IL_000e:
 		CategoryRecord_t6641AD037A579EF6CA390C921BED1B4CC043163F  L_4;
 		L_4 = IL2CPP_ARRAY_UNSAFE_LOAD((CategoryRecordU5BU5D_t06175993CE2C690845F13CEF448325A7082C5F18*)L_2, (int32_t)L_3);
 		return (CategoryRecord_t6641AD037A579EF6CA390C921BED1B4CC043163F )L_4;
-	}
-}
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR RuntimeObject * Enumerator_get_Current_m9C4EBBD2108B51885E750F927D7936290C8E20EE_gshared_inline (Enumerator_tB6009981BD4E3881E3EC83627255A24198F902D6 * __this, const RuntimeMethod* method)
-{
-	{
-		RuntimeObject * L_0 = (RuntimeObject *)__this->get_current_3();
-		return (RuntimeObject *)L_0;
 	}
 }
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR CategoryNames_t09D838F906247D051E834E074DFADDD4ECD03CB8  Enumerator_get_Current_m9D2567BB66E877C49F5A03DC0CF2F840DF6E4F30_gshared_inline (Enumerator_tAE3365B6832A80112953F747D9E469D96BBEBB5C * __this, const RuntimeMethod* method)

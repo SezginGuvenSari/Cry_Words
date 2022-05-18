@@ -1,0 +1,76 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a9b140f2bb9611449b182b841e238fd6, type: 3}
+  m_Name: Countries5
+  m_EditorClassIdentifier: 
+  timeInSeconds: 80
+  grade1: 0
+  grade2: 0
+  grade3: 0
+  Colums: 6
+  Rows: 6
+  Board:
+  - Size: 6
+    Row:
+    - T
+    - U
+    - R
+    - K
+    - E
+    - Y
+  - Size: 6
+    Row:
+    - P
+    - S
+    - V
+    - E
+    - H
+    - E
+  - Size: 6
+    Row:
+    - Y
+    - A
+    - X
+    - Y
+    - A
+    - M
+  - Size: 6
+    Row:
+    - B
+    - S
+    - D
+    - A
+    - W
+    - E
+  - Size: 6
+    Row:
+    - I
+    - N
+    - L
+    - Q
+    - K
+    - N
+  - Size: 6
+    Row:
+    - P
+    - G
+    - Z
+    - O
+    - F
+    - P
+  SearcingWords:
+  - Found: 0
+    Word: TURKEY
+  - Found: 0
+    Word: USA
+  - Found: 0
+    Word: YEMEN

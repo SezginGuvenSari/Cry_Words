@@ -1,0 +1,112 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a9b140f2bb9611449b182b841e238fd6, type: 3}
+  m_Name: Movie6
+  m_EditorClassIdentifier: 
+  timeInSeconds: 70
+  grade1: 0
+  grade2: 0
+  grade3: 0
+  Colums: 8
+  Rows: 8
+  Board:
+  - Size: 8
+    Row:
+    - P
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - D
+  - Size: 8
+    Row:
+    - R
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - I
+  - Size: 8
+    Row:
+    - E
+    - 
+    - 
+    - 
+    - 
+    - 
+    - V
+    - R
+  - Size: 8
+    Row:
+    - M
+    - 
+    - 
+    - 
+    - B
+    - O
+    - I
+    - E
+  - Size: 8
+    Row:
+    - I
+    - 
+    - 
+    - I
+    - I
+    - 
+    - S
+    - C
+  - Size: 8
+    Row:
+    - E
+    - 
+    - U
+    - C
+    - 
+    - 
+    - U
+    - T
+  - Size: 8
+    Row:
+    - R
+    - Q
+    - E
+    - 
+    - 
+    - 
+    - A
+    - O
+  - Size: 8
+    Row:
+    - S
+    - 
+    - 
+    - 
+    - 
+    - 
+    - L
+    - R
+  SearcingWords:
+  - Found: 0
+    Word: DIRECTOR
+  - Found: 0
+    Word: VOICE
+  - Found: 0
+    Word: PREMIER
+  - Found: 0
+    Word: VISUAL
+  - Found: 0
+    Word: SQUIB

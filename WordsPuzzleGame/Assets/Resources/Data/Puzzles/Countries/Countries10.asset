@@ -1,0 +1,156 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a9b140f2bb9611449b182b841e238fd6, type: 3}
+  m_Name: Countries10
+  m_EditorClassIdentifier: 
+  timeInSeconds: 60
+  grade1: 0
+  grade2: 0
+  grade3: 0
+  Colums: 10
+  Rows: 10
+  Board:
+  - Size: 10
+    Row:
+    - C
+    - A
+    - H
+    - M
+    - A
+    - J
+    - W
+    - B
+    - A
+    - P
+  - Size: 10
+    Row:
+    - X
+    - A
+    - R
+    - M
+    - E
+    - N
+    - I
+    - A
+    - N
+    - O
+  - Size: 10
+    Row:
+    - D
+    - D
+    - N
+    - O
+    - D
+    - E
+    - D
+    - H
+    - M
+    - R
+  - Size: 10
+    Row:
+    - A
+    - O
+    - C
+    - A
+    - M
+    - M
+    - X
+    - A
+    - Y
+    - T
+  - Size: 10
+    Row:
+    - E
+    - I
+    - J
+    - W
+    - D
+    - A
+    - B
+    - L
+    - G
+    - U
+  - Size: 10
+    Row:
+    - N
+    - R
+    - B
+    - S
+    - O
+    - A
+    - N
+    - U
+    - O
+    - G
+  - Size: 10
+    Row:
+    - A
+    - W
+    - G
+    - M
+    - C
+    - J
+    - V
+    - I
+    - Q
+    - A
+  - Size: 10
+    Row:
+    - D
+    - H
+    - U
+    - Y
+    - A
+    - V
+    - F
+    - N
+    - A
+    - L
+  - Size: 10
+    Row:
+    - U
+    - C
+    - G
+    - F
+    - D
+    - Z
+    - J
+    - L
+    - K
+    - S
+  - Size: 10
+    Row:
+    - S
+    - W
+    - E
+    - D
+    - E
+    - N
+    - A
+    - F
+    - B
+    - Y
+  SearcingWords:
+  - Found: 0
+    Word: CANADA
+  - Found: 0
+    Word: ARMENIA
+  - Found: 0
+    Word: ROMANIA
+  - Found: 0
+    Word: SWEDEN
+  - Found: 0
+    Word: ZAMBIA
+  - Found: 0
+    Word: SUDAN
+  - Found: 0
+    Word: PORTUGAL

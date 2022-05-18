@@ -1,0 +1,93 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a9b140f2bb9611449b182b841e238fd6, type: 3}
+  m_Name: Toys3
+  m_EditorClassIdentifier: 
+  timeInSeconds: 70
+  grade1: 0
+  grade2: 0
+  grade3: 0
+  Colums: 7
+  Rows: 7
+  Board:
+  - Size: 7
+    Row:
+    - D
+    - R
+    - U
+    - M
+    - S
+    - I
+    - B
+  - Size: 7
+    Row:
+    - Y
+    - Z
+    - J
+    - X
+    - R
+    - H
+    - L
+  - Size: 7
+    Row:
+    - F
+    - P
+    - S
+    - V
+    - A
+    - N
+    - O
+  - Size: 7
+    Row:
+    - Z
+    - F
+    - U
+    - D
+    - Y
+    - M
+    - C
+  - Size: 7
+    Row:
+    - I
+    - O
+    - S
+    - M
+    - R
+    - E
+    - K
+  - Size: 7
+    Row:
+    - V
+    - M
+    - P
+    - B
+    - F
+    - A
+    - S
+  - Size: 7
+    Row:
+    - P
+    - U
+    - Z
+    - Z
+    - L
+    - E
+    - C
+  SearcingWords:
+  - Found: 0
+    Word: DRUMS
+  - Found: 0
+    Word: CARDS
+  - Found: 0
+    Word: BLOCKS
+  - Found: 0
+    Word: PUZZLE

@@ -1,0 +1,112 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a9b140f2bb9611449b182b841e238fd6, type: 3}
+  m_Name: Food7
+  m_EditorClassIdentifier: 
+  timeInSeconds: 70
+  grade1: 0
+  grade2: 0
+  grade3: 0
+  Colums: 8
+  Rows: 8
+  Board:
+  - Size: 8
+    Row:
+    - Y
+    - V
+    - F
+    - Z
+    - Z
+    - A
+    - E
+    - T
+  - Size: 8
+    Row:
+    - O
+    - L
+    - E
+    - A
+    - Q
+    - S
+    - M
+    - M
+  - Size: 8
+    Row:
+    - G
+    - N
+    - E
+    - D
+    - A
+    - E
+    - R
+    - B
+  - Size: 8
+    Row:
+    - H
+    - Y
+    - R
+    - N
+    - C
+    - Y
+    - R
+    - M
+  - Size: 8
+    Row:
+    - U
+    - F
+    - B
+    - F
+    - T
+    - J
+    - O
+    - X
+  - Size: 8
+    Row:
+    - R
+    - P
+    - T
+    - M
+    - S
+    - I
+    - R
+    - J
+  - Size: 8
+    Row:
+    - T
+    - R
+    - U
+    - K
+    - G
+    - O
+    - L
+    - Q
+  - Size: 8
+    Row:
+    - I
+    - N
+    - O
+    - R
+    - A
+    - C
+    - A
+    - M
+  SearcingWords:
+  - Found: 0
+    Word: TEA
+  - Found: 0
+    Word: YOGHURT
+  - Found: 0
+    Word: MACARONI
+  - Found: 0
+    Word: BREAD
+  - Found: 0
+    Word: LENTIL

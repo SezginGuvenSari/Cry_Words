@@ -1,0 +1,156 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a9b140f2bb9611449b182b841e238fd6, type: 3}
+  m_Name: Hobbies8
+  m_EditorClassIdentifier: 
+  timeInSeconds: 60
+  grade1: 0
+  grade2: 0
+  grade3: 0
+  Colums: 10
+  Rows: 10
+  Board:
+  - Size: 10
+    Row:
+    - W
+    - S
+    - G
+    - N
+    - I
+    - T
+    - I
+    - D
+    - E
+    - D
+  - Size: 10
+    Row:
+    - R
+    - S
+    - S
+    - E
+    - T
+    - A
+    - L
+    - I
+    - P
+    - I
+  - Size: 10
+    Row:
+    - I
+    - F
+    - E
+    - Y
+    - B
+    - R
+    - X
+    - A
+    - U
+    - N
+  - Size: 10
+    Row:
+    - T
+    - E
+    - P
+    - V
+    - V
+    - C
+    - X
+    - F
+    - Q
+    - I
+  - Size: 10
+    Row:
+    - I
+    - M
+    - C
+    - C
+    - E
+    - D
+    - H
+    - X
+    - Z
+    - N
+  - Size: 10
+    Row:
+    - N
+    - I
+    - U
+    - U
+    - N
+    - T
+    - A
+    - C
+    - I
+    - G
+  - Size: 10
+    Row:
+    - G
+    - N
+    - A
+    - Y
+    - L
+    - M
+    - A
+    - C
+    - H
+    - Z
+  - Size: 10
+    Row:
+    - G
+    - A
+    - E
+    - V
+    - T
+    - S
+    - T
+    - R
+    - A
+    - R
+  - Size: 10
+    Row:
+    - M
+    - C
+    - X
+    - L
+    - V
+    - T
+    - N
+    - Y
+    - A
+    - M
+  - Size: 10
+    Row:
+    - B
+    - L
+    - O
+    - G
+    - G
+    - I
+    - N
+    - G
+    - B
+    - K
+  SearcingWords:
+  - Found: 0
+    Word: DINING
+  - Found: 0
+    Word: EDITING
+  - Found: 0
+    Word: BLOGGING
+  - Found: 0
+    Word: KARATE
+  - Found: 0
+    Word: WRITING
+  - Found: 0
+    Word: ANIME
+  - Found: 0
+    Word: PILATES

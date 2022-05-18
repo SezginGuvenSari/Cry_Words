@@ -444,27 +444,29 @@ extern void U3CU3Ec__DisplayClass9_0_U3CSpawnGridSquaresU3Eb__2_mD85932113A20A17
 extern void AlphabetData__ctor_mE0E91E96E0D74FF386E4EE2B98318121DF80F879 (void);
 // 0x000000D8 System.Void AlphabetData/LetterData::.ctor()
 extern void LetterData__ctor_mDAAB3E949209FD6380AE1E8F2C61DDDEC826DAEC (void);
-// 0x000000D9 System.Void BoardData::ClearWithEmptyString()
+// 0x000000D9 System.Void BoardData::ClearData()
+extern void BoardData_ClearData_m17E0F46BDAA4B9F27266A98CC5765590AA99E3CB (void);
+// 0x000000DA System.Void BoardData::ClearWithEmptyString()
 extern void BoardData_ClearWithEmptyString_m3FF1510C8BC3F05C20533F8946A521C883B0FBF0 (void);
-// 0x000000DA System.Void BoardData::CreateNewBoard()
+// 0x000000DB System.Void BoardData::CreateNewBoard()
 extern void BoardData_CreateNewBoard_m8490B75A6879A9933D0EEE642F5B1F6D72E21ECE (void);
-// 0x000000DB System.Void BoardData::.ctor()
+// 0x000000DC System.Void BoardData::.ctor()
 extern void BoardData__ctor_mCD73F4EBC62B7CC9948F7F0ADB5E1BC0B1955B00 (void);
-// 0x000000DC System.Void BoardData/SearcingWord::.ctor()
+// 0x000000DD System.Void BoardData/SearcingWord::.ctor()
 extern void SearcingWord__ctor_mBA1FC3EB7E2CC4CA19C7CFA1E1D1A832E45BE420 (void);
-// 0x000000DD System.Void BoardData/BoardRow::.ctor()
+// 0x000000DE System.Void BoardData/BoardRow::.ctor()
 extern void BoardRow__ctor_m3A5692E705DE90995605D0A03D9BF5D8CEB8CF41 (void);
-// 0x000000DE System.Void BoardData/BoardRow::.ctor(System.Int32)
+// 0x000000DF System.Void BoardData/BoardRow::.ctor(System.Int32)
 extern void BoardRow__ctor_m629FFA2072A5F984D2D91BBC62A5EB0A56813B46 (void);
-// 0x000000DF System.Void BoardData/BoardRow::CreateRow(System.Int32)
+// 0x000000E0 System.Void BoardData/BoardRow::CreateRow(System.Int32)
 extern void BoardRow_CreateRow_m173C778FC23BCB489B84DEEBE478DDEC1A76A767 (void);
-// 0x000000E0 System.Void BoardData/BoardRow::ClearRow()
+// 0x000000E1 System.Void BoardData/BoardRow::ClearRow()
 extern void BoardRow_ClearRow_m429BF67E86F9C2C7FF7A7BBE0622FA9639102C33 (void);
-// 0x000000E1 System.Void GameData::.ctor()
+// 0x000000E2 System.Void GameData::.ctor()
 extern void GameData__ctor_mF787127A0B2A0A3EBFA33BAB7050087D66E80F14 (void);
-// 0x000000E2 System.Void GameLevelData::.ctor()
+// 0x000000E3 System.Void GameLevelData::.ctor()
 extern void GameLevelData__ctor_m33420F54BFD1C356542154FA830A7738E0BB47FF (void);
-static Il2CppMethodPointer s_methodPointers[226] = 
+static Il2CppMethodPointer s_methodPointers[227] = 
 {
 	CountTimer_Start_m197683541112F0001ADE90F3DAF8808CBAF09E00,
 	CountTimer_OnDisable_m4C5ABDD920F8BF51486C704729F70237877D5B07,
@@ -682,6 +684,7 @@ static Il2CppMethodPointer s_methodPointers[226] =
 	U3CU3Ec__DisplayClass9_0_U3CSpawnGridSquaresU3Eb__2_mD85932113A20A17881D3C49B89E75B19831DEC29,
 	AlphabetData__ctor_mE0E91E96E0D74FF386E4EE2B98318121DF80F879,
 	LetterData__ctor_mDAAB3E949209FD6380AE1E8F2C61DDDEC826DAEC,
+	BoardData_ClearData_m17E0F46BDAA4B9F27266A98CC5765590AA99E3CB,
 	BoardData_ClearWithEmptyString_m3FF1510C8BC3F05C20533F8946A521C883B0FBF0,
 	BoardData_CreateNewBoard_m8490B75A6879A9933D0EEE642F5B1F6D72E21ECE,
 	BoardData__ctor_mCD73F4EBC62B7CC9948F7F0ADB5E1BC0B1955B00,
@@ -693,7 +696,7 @@ static Il2CppMethodPointer s_methodPointers[226] =
 	GameData__ctor_mF787127A0B2A0A3EBFA33BAB7050087D66E80F14,
 	GameLevelData__ctor_m33420F54BFD1C356542154FA830A7738E0BB47FF,
 };
-static const int32_t s_InvokerIndices[226] = 
+static const int32_t s_InvokerIndices[227] = 
 {
 	1365,
 	1365,
@@ -916,6 +919,7 @@ static const int32_t s_InvokerIndices[226] =
 	1365,
 	1365,
 	1365,
+	1365,
 	1178,
 	1178,
 	1365,
@@ -927,7 +931,7 @@ IL2CPP_EXTERN_C const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule;
 const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule = 
 {
 	"Assembly-CSharp.dll",
-	226,
+	227,
 	s_methodPointers,
 	0,
 	NULL,

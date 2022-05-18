@@ -1,0 +1,156 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a9b140f2bb9611449b182b841e238fd6, type: 3}
+  m_Name: Science10
+  m_EditorClassIdentifier: 
+  timeInSeconds: 60
+  grade1: 0
+  grade2: 0
+  grade3: 0
+  Colums: 10
+  Rows: 10
+  Board:
+  - Size: 10
+    Row:
+    - H
+    - Q
+    - E
+    - D
+    - S
+    - X
+    - C
+    - U
+    - D
+    - G
+  - Size: 10
+    Row:
+    - Y
+    - A
+    - K
+    - Z
+    - R
+    - C
+    - E
+    - F
+    - I
+    - L
+  - Size: 10
+    Row:
+    - D
+    - B
+    - N
+    - E
+    - H
+    - R
+    - J
+    - E
+    - P
+    - O
+  - Size: 10
+    Row:
+    - R
+    - J
+    - Q
+    - A
+    - I
+    - Q
+    - X
+    - D
+    - I
+    - B
+  - Size: 10
+    Row:
+    - O
+    - D
+    - S
+    - F
+    - I
+    - U
+    - E
+    - N
+    - T
+    - A
+  - Size: 10
+    Row:
+    - G
+    - O
+    - Y
+    - O
+    - G
+    - D
+    - B
+    - U
+    - A
+    - L
+  - Size: 10
+    Row:
+    - E
+    - V
+    - D
+    - R
+    - R
+    - G
+    - I
+    - O
+    - C
+    - S
+  - Size: 10
+    Row:
+    - N
+    - D
+    - V
+    - C
+    - E
+    - G
+    - V
+    - S
+    - P
+    - O
+  - Size: 10
+    Row:
+    - H
+    - H
+    - L
+    - E
+    - U
+    - H
+    - T
+    - T
+    - B
+    - Q
+  - Size: 10
+    Row:
+    - C
+    - L
+    - O
+    - U
+    - D
+    - A
+    - F
+    - Q
+    - E
+    - O
+  SearcingWords:
+  - Found: 0
+    Word: GLOBAL
+  - Found: 0
+    Word: OBSIDIAN
+  - Found: 0
+    Word: ' SOUND'
+  - Found: 0
+    Word: LIFE
+  - Found: 0
+    Word: ' FORCE'
+  - Found: 0
+    Word: HYDROGEN
+  - Found: 0
+    Word: CLOUD

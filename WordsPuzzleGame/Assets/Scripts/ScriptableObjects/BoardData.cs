@@ -51,6 +51,16 @@ public class BoardData : ScriptableObject
     public BoardRow[] Board;
     public List<SearcingWord> SearcingWords = new List<SearcingWord>();
 
+    public void ClearData()
+    {
+
+        foreach (var word in SearcingWords)
+        {
+            word.Found = false;
+        }
+
+    }
+
     public void ClearWithEmptyString()
     {
         for (int i = 0; i < Colums; i++)

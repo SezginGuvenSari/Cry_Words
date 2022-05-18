@@ -1,0 +1,156 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a9b140f2bb9611449b182b841e238fd6, type: 3}
+  m_Name: Food8
+  m_EditorClassIdentifier: 
+  timeInSeconds: 60
+  grade1: 0
+  grade2: 0
+  grade3: 0
+  Colums: 10
+  Rows: 10
+  Board:
+  - Size: 10
+    Row:
+    - C
+    - R
+    - O
+    - I
+    - S
+    - S
+    - A
+    - N
+    - T
+    - D
+  - Size: 10
+    Row:
+    - Q
+    - O
+    - L
+    - E
+    - H
+    - Z
+    - J
+    - Z
+    - O
+    - P
+  - Size: 10
+    Row:
+    - Q
+    - K
+    - F
+    - R
+    - O
+    - P
+    - W
+    - U
+    - U
+    - A
+  - Size: 10
+    Row:
+    - J
+    - M
+    - Y
+    - F
+    - G
+    - G
+    - G
+    - C
+    - K
+    - R
+  - Size: 10
+    Row:
+    - E
+    - S
+    - Q
+    - I
+    - E
+    - H
+    - X
+    - H
+    - Y
+    - S
+  - Size: 10
+    Row:
+    - A
+    - E
+    - V
+    - L
+    - N
+    - E
+    - K
+    - K
+    - R
+    - L
+  - Size: 10
+    Row:
+    - D
+    - M
+    - I
+    - U
+    - Q
+    - V
+    - Y
+    - E
+    - M
+    - E
+  - Size: 10
+    Row:
+    - N
+    - G
+    - T
+    - J
+    - S
+    - I
+    - T
+    - H
+    - S
+    - Y
+  - Size: 10
+    Row:
+    - U
+    - B
+    - P
+    - S
+    - P
+    - A
+    - A
+    - Z
+    - F
+    - B
+  - Size: 10
+    Row:
+    - S
+    - A
+    - N
+    - D
+    - W
+    - I
+    - C
+    - H
+    - H
+    - O
+  SearcingWords:
+  - Found: 0
+    Word: CROISSANT
+  - Found: 0
+    Word: ' DOUGHNUT'
+  - Found: 0
+    Word: PARSLEY
+  - Found: 0
+    Word: SANDWICH
+  - Found: 0
+    Word: SUNDAE
+  - Found: 0
+    Word: COFFEE
+  - Found: 0
+    Word: WATER

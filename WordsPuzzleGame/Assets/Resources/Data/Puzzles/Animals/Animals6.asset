@@ -1,0 +1,112 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a9b140f2bb9611449b182b841e238fd6, type: 3}
+  m_Name: Animals6
+  m_EditorClassIdentifier: 
+  timeInSeconds: 70
+  grade1: 0
+  grade2: 0
+  grade3: 0
+  Colums: 8
+  Rows: 8
+  Board:
+  - Size: 8
+    Row:
+    - T
+    - J
+    - G
+    - P
+    - Y
+    - N
+    - O
+    - P
+  - Size: 8
+    Row:
+    - I
+    - N
+    - E
+    - S
+    - E
+    - O
+    - H
+    - R
+  - Size: 8
+    Row:
+    - G
+    - E
+    - I
+    - H
+    - X
+    - M
+    - W
+    - A
+  - Size: 8
+    Row:
+    - E
+    - E
+    - L
+    - E
+    - I
+    - T
+    - Z
+    - T
+  - Size: 8
+    Row:
+    - R
+    - X
+    - Y
+    - E
+    - F
+    - Z
+    - K
+    - Y
+  - Size: 8
+    Row:
+    - E
+    - D
+    - G
+    - P
+    - A
+    - L
+    - A
+    - T
+  - Size: 8
+    Row:
+    - F
+    - Y
+    - K
+    - N
+    - W
+    - V
+    - O
+    - D
+  - Size: 8
+    Row:
+    - N
+    - E
+    - C
+    - T
+    - W
+    - Z
+    - F
+    - W
+  SearcingWords:
+  - Found: 0
+    Word: PONY
+  - Found: 0
+    Word: RAT
+  - Found: 0
+    Word: TIGER
+  - Found: 0
+    Word: WOLF
+  - Found: 0
+    Word: SHEEP

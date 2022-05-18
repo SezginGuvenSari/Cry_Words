@@ -1,0 +1,112 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a9b140f2bb9611449b182b841e238fd6, type: 3}
+  m_Name: Hobbies6
+  m_EditorClassIdentifier: 
+  timeInSeconds: 70
+  grade1: 0
+  grade2: 0
+  grade3: 0
+  Colums: 8
+  Rows: 8
+  Board:
+  - Size: 8
+    Row:
+    - C
+    - H
+    - A
+    - T
+    - T
+    - I
+    - N
+    - G
+  - Size: 8
+    Row:
+    - H
+    - S
+    - H
+    - O
+    - I
+    - R
+    - R
+    - W
+  - Size: 8
+    Row:
+    - X
+    - A
+    - E
+    - P
+    - M
+    - U
+    - W
+    - A
+  - Size: 8
+    Row:
+    - S
+    - G
+    - I
+    - L
+    - Q
+    - G
+    - U
+    - B
+  - Size: 8
+    Row:
+    - F
+    - R
+    - K
+    - S
+    - Z
+    - L
+    - Q
+    - S
+  - Size: 8
+    Row:
+    - G
+    - P
+    - I
+    - J
+    - V
+    - Z
+    - J
+    - D
+  - Size: 8
+    Row:
+    - I
+    - M
+    - E
+    - U
+    - N
+    - Y
+    - U
+    - M
+  - Size: 8
+    Row:
+    - K
+    - A
+    - R
+    - A
+    - O
+    - K
+    - E
+    - P
+  SearcingWords:
+  - Found: 0
+    Word: CHATTING
+  - Found: 0
+    Word: PUZZLES
+  - Found: 0
+    Word: KARAOKE
+  - Found: 0
+    Word: DRAWING
+  - Found: 0
+    Word: REIKI

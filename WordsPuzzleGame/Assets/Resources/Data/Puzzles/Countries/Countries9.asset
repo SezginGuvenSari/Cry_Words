@@ -1,0 +1,156 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a9b140f2bb9611449b182b841e238fd6, type: 3}
+  m_Name: Countries9
+  m_EditorClassIdentifier: 
+  timeInSeconds: 60
+  grade1: 0
+  grade2: 0
+  grade3: 0
+  Colums: 10
+  Rows: 10
+  Board:
+  - Size: 10
+    Row:
+    - I
+    - C
+    - E
+    - L
+    - A
+    - N
+    - D
+    - L
+    - P
+    - N
+  - Size: 10
+    Row:
+    - U
+    - Z
+    - R
+    - O
+    - A
+    - M
+    - F
+    - V
+    - D
+    - E
+  - Size: 10
+    Row:
+    - A
+    - E
+    - C
+    - D
+    - K
+    - D
+    - W
+    - G
+    - N
+    - P
+  - Size: 10
+    Row:
+    - F
+    - C
+    - R
+    - O
+    - T
+    - I
+    - A
+    - N
+    - I
+    - A
+  - Size: 10
+    Row:
+    - Q
+    - H
+    - D
+    - Z
+    - D
+    - Z
+    - L
+    - K
+    - U
+    - L
+  - Size: 10
+    Row:
+    - N
+    - I
+    - N
+    - Q
+    - M
+    - W
+    - H
+    - R
+    - Y
+    - Q
+  - Size: 10
+    Row:
+    - G
+    - A
+    - T
+    - N
+    - B
+    - R
+    - Z
+    - C
+    - A
+    - E
+  - Size: 10
+    Row:
+    - O
+    - W
+    - N
+    - U
+    - E
+    - F
+    - C
+    - R
+    - P
+    - G
+  - Size: 10
+    Row:
+    - I
+    - J
+    - N
+    - A
+    - T
+    - S
+    - I
+    - K
+    - A
+    - P
+  - Size: 10
+    Row:
+    - M
+    - E
+    - X
+    - I
+    - C
+    - O
+    - I
+    - P
+    - O
+    - V
+  SearcingWords:
+  - Found: 0
+    Word: ICELAND
+  - Found: 0
+    Word: CZECHIA
+  - Found: 0
+    Word: CROTIA
+  - Found: 0
+    Word: NEPAL
+  - Found: 0
+    Word: MEXICO
+  - Found: 0
+    Word: PAKISTAN
+  - Found: 0
+    Word: IRAQ

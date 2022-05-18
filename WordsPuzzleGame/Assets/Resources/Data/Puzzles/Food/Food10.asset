@@ -1,0 +1,156 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a9b140f2bb9611449b182b841e238fd6, type: 3}
+  m_Name: Food10
+  m_EditorClassIdentifier: 
+  timeInSeconds: 60
+  grade1: 0
+  grade2: 0
+  grade3: 0
+  Colums: 10
+  Rows: 10
+  Board:
+  - Size: 10
+    Row:
+    - F
+    - R
+    - E
+    - S
+    - H
+    - L
+    - W
+    - J
+    - B
+    - C
+  - Size: 10
+    Row:
+    - R
+    - V
+    - R
+    - U
+    - T
+    - J
+    - X
+    - M
+    - O
+    - U
+  - Size: 10
+    Row:
+    - U
+    - V
+    - W
+    - M
+    - S
+    - T
+    - T
+    - C
+    - H
+    - K
+  - Size: 10
+    Row:
+    - I
+    - F
+    - N
+    - G
+    - U
+    - J
+    - O
+    - Z
+    - P
+    - N
+  - Size: 10
+    Row:
+    - T
+    - L
+    - E
+    - A
+    - B
+    - N
+    - P
+    - I
+    - R
+    - I
+  - Size: 10
+    Row:
+    - C
+    - C
+    - C
+    - J
+    - U
+    - E
+    - P
+    - W
+    - E
+    - F
+  - Size: 10
+    Row:
+    - J
+    - U
+    - T
+    - T
+    - Y
+    - G
+    - T
+    - V
+    - D
+    - E
+  - Size: 10
+    Row:
+    - F
+    - S
+    - A
+    - T
+    - W
+    - I
+    - F
+    - A
+    - J
+    - B
+  - Size: 10
+    Row:
+    - Z
+    - I
+    - R
+    - N
+    - V
+    - R
+    - T
+    - H
+    - L
+    - R
+  - Size: 10
+    Row:
+    - S
+    - A
+    - L
+    - T
+    - M
+    - U
+    - X
+    - G
+    - C
+    - P
+  SearcingWords:
+  - Found: 0
+    Word: FRUIT
+  - Found: 0
+    Word: COCONUT
+  - Found: 0
+    Word: PLATE
+  - Found: 0
+    Word: SALT
+  - Found: 0
+    Word: NECTAR
+  - Found: 0
+    Word: KNIFE
+  - Found: 0
+    Word: FRESH
