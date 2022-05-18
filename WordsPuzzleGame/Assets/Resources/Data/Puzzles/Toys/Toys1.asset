@@ -54,6 +54,7 @@ MonoBehaviour:
     - D
     - D
     - C
+  cameraSize: 8
   SearcingWords:
   - Found: 0
     Word: CAR

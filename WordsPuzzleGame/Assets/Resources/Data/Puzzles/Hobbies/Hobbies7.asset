@@ -99,6 +99,7 @@ MonoBehaviour:
     - O
     - N
     - G
+  cameraSize: 12
   SearcingWords:
   - Found: 0
     Word: MODELING

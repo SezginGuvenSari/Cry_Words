@@ -67,6 +67,7 @@ MonoBehaviour:
     - B
     - O
     - N
+  cameraSize: 10
   SearcingWords:
   - Found: 0
     Word: GREECE

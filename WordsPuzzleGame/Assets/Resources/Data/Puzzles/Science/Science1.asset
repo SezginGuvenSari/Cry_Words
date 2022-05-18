@@ -54,6 +54,7 @@ MonoBehaviour:
     - L
     - V
     - O
+  cameraSize: 8
   SearcingWords:
   - Found: 0
     Word: FACT

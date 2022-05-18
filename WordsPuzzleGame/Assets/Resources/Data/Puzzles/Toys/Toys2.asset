@@ -67,6 +67,7 @@ MonoBehaviour:
     - A
     - B
     - A
+  cameraSize: 10
   SearcingWords:
   - Found: 0
     Word: BALL

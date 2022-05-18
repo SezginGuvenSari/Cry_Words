@@ -139,6 +139,7 @@ MonoBehaviour:
     - T
     - H
     - H
+  cameraSize: 15
   SearcingWords:
   - Found: 0
     Word: MUTATION

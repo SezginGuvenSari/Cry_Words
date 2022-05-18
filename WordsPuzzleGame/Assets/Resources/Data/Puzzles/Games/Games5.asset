@@ -82,6 +82,7 @@ MonoBehaviour:
     - P
     - G
     - N
+  cameraSize: 11
   SearcingWords:
   - Found: 0
     Word: BULLET

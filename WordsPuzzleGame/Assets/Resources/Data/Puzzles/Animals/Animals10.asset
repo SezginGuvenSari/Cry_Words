@@ -139,6 +139,7 @@ MonoBehaviour:
     - C
     - A
     - R
+  cameraSize: 15
   SearcingWords:
   - Found: 0
     Word: HARE

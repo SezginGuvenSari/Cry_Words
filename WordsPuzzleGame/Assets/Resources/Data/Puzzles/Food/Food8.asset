@@ -139,6 +139,7 @@ MonoBehaviour:
     - H
     - H
     - O
+  cameraSize: 15
   SearcingWords:
   - Found: 0
     Word: CROISSANT

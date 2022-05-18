@@ -139,6 +139,7 @@ MonoBehaviour:
     - R
     - M
     - Z
+  cameraSize: 15
   SearcingWords:
   - Found: 0
     Word: VICTORY

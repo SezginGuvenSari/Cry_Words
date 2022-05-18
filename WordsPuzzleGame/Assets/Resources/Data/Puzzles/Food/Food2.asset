@@ -54,6 +54,7 @@ MonoBehaviour:
     - U
     - C
     - X
+  cameraSize: 8
   SearcingWords:
   - Found: 0
     Word: COLA

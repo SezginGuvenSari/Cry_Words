@@ -54,6 +54,7 @@ MonoBehaviour:
     - T
     - Y
     - M
+  cameraSize: 8
   SearcingWords:
   - Found: 0
     Word: CRAFT

@@ -67,6 +67,7 @@ MonoBehaviour:
     - T
     - W
     - F
+  cameraSize: 10
   SearcingWords:
   - Found: 0
     Word: HART

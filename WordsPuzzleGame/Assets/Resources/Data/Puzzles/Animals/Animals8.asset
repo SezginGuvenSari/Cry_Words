@@ -139,6 +139,7 @@ MonoBehaviour:
     - m
     - a
     - h
+  cameraSize: 15
   SearcingWords:
   - Found: 0
     Word: panda

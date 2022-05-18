@@ -54,6 +54,7 @@ MonoBehaviour:
     - M
     - Q
     - V
+  cameraSize: 8
   SearcingWords:
   - Found: 0
     Word: RADIO

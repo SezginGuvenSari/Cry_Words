@@ -82,6 +82,7 @@ MonoBehaviour:
     - T
     - O
     - B
+  cameraSize: 11
   SearcingWords:
   - Found: 0
     Word: SHOOTER

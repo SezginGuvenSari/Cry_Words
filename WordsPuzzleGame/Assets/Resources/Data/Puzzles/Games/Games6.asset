@@ -99,6 +99,7 @@ MonoBehaviour:
     - A
     - A
     - A
+  cameraSize: 12
   SearcingWords:
   - Found: 0
     Word: NPC

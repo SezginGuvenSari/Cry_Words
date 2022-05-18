@@ -54,6 +54,7 @@ MonoBehaviour:
     - T
     - W
     - R
+  cameraSize: 8
   SearcingWords:
   - Found: 0
     Word: ACTOR

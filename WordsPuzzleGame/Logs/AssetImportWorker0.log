@@ -15,11 +15,11 @@ D:/Github_Project/Word-Puzzle-Game/WordsPuzzleGame
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-64099
+50013
 Successfully changed project path to: D:/Github_Project/Word-Puzzle-Game/WordsPuzzleGame
 D:/Github_Project/Word-Puzzle-Game/WordsPuzzleGame
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 55.17 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 98.00 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.10f1 (297d780c91bc)
 [Subsystems] Discovering subsystems at path D:/Unity/Editor/2020.3.10f1/Editor/Data/Resources/UnitySubsystems
@@ -35,600 +35,142 @@ Initialize mono
 Mono path[0] = 'D:/Unity/Editor/2020.3.10f1/Editor/Data/Managed'
 Mono path[1] = 'D:/Unity/Editor/2020.3.10f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'D:/Unity/Editor/2020.3.10f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56164
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56020
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: D:/Unity/Editor/2020.3.10f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001750 seconds.
+Registered in 0.002247 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 59.58 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 60.96 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in 10.480 seconds
+- Completed reload, in  6.505 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.008189 seconds.
+Registered in 0.008348 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 51.38 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 87.34 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.987 seconds
+- Completed reload, in  1.809 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
-Refreshing native plugins compatible for Editor in 0.76 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 0.54 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2113 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 94.1 MB.
-System memory in use after: 94.0 MB.
+System memory in use after: 94.1 MB.
 
 Unloading 36 unused Assets to reduce memory usage. Loaded Objects now: 2552.
-Total: 2.915400 ms (FindLiveObjects: 0.285500 ms CreateObjectMapping: 0.100700 ms MarkObjects: 2.360500 ms  DeleteObjects: 0.167300 ms)
+Total: 3.209800 ms (FindLiveObjects: 0.216400 ms CreateObjectMapping: 0.077700 ms MarkObjects: 2.742800 ms  DeleteObjects: 0.171500 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/Resources/Data/Puzzles/Food/Food1.asset
-  artifactKey: Guid(912e3d0cf98856e438193ec2c6b768e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Data/Puzzles/Food/Food1.asset using Guid(912e3d0cf98856e438193ec2c6b768e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b745c3d91822dd1b8050216c3b97983') in 0.096629 seconds
-  Import took 0.232961 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 25.482773 seconds.
-  path: Assets/Resources/Data/Puzzles/Food/Food2.asset
-  artifactKey: Guid(561c85936bc576148b70dfce7ecd96b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Data/Puzzles/Food/Food2.asset using Guid(561c85936bc576148b70dfce7ecd96b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3105754634238c5e27f20c76d7f18ea') in 0.006065 seconds
-  Import took 0.036016 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 31.526464 seconds.
-  path: Assets/Resources/Data/Puzzles/Food/Food3.asset
-  artifactKey: Guid(608c03416f7fc134790584314dd9115d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Data/Puzzles/Food/Food3.asset using Guid(608c03416f7fc134790584314dd9115d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fed2b824b2f220073b0650ecea1840e4') in 0.005900 seconds
-  Import took 0.036794 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 57.381205 seconds.
-  path: Assets/Resources/Data/Puzzles/Food/Food4.asset
-  artifactKey: Guid(c9f6702b8cfcbf34cacbb8b9ac0b182f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Data/Puzzles/Food/Food4.asset using Guid(c9f6702b8cfcbf34cacbb8b9ac0b182f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1648097d79c5c5c6dc8b6fcab36ca30e') in 0.005455 seconds
-  Import took 0.047114 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.003015 seconds.
-  path: Assets/Resources/Data/Puzzles/Food/Food4.asset
-  artifactKey: Guid(c9f6702b8cfcbf34cacbb8b9ac0b182f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Data/Puzzles/Food/Food4.asset using Guid(c9f6702b8cfcbf34cacbb8b9ac0b182f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1648097d79c5c5c6dc8b6fcab36ca30e') in 0.029387 seconds
-  Import took 0.106843 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 56.274825 seconds.
-  path: Assets/Resources/Data/Puzzles/Food/Food5.asset
-  artifactKey: Guid(355a019dfdaab8849b3cae1386ec67fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Data/Puzzles/Food/Food5.asset using Guid(355a019dfdaab8849b3cae1386ec67fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06c1154623acc5f1fd611db09a18d52c') in 0.006225 seconds
-  Import took 0.045686 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 66.510391 seconds.
-  path: Assets/Resources/Data/Puzzles/Food/Food6.asset
-  artifactKey: Guid(0c2e39d3bc9d61540845fdb96ca46cf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Data/Puzzles/Food/Food6.asset using Guid(0c2e39d3bc9d61540845fdb96ca46cf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c2d35d49f79c7426abd0368fb4c99c5') in 0.005806 seconds
-  Import took 0.087226 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 85.185910 seconds.
-  path: Assets/Resources/Data/Puzzles/Food/Food7.asset
-  artifactKey: Guid(4e8856ec1e6a691419147108d866e012) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Data/Puzzles/Food/Food7.asset using Guid(4e8856ec1e6a691419147108d866e012) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07e9dae93bc7c8ce8b783141e518e068') in 0.005894 seconds
-  Import took 0.047644 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 135.759529 seconds.
-  path: Assets/Resources/Data/Puzzles/Food/Food8.asset
-  artifactKey: Guid(ca9d8eb1c3b3af644a622f77a9f44225) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Data/Puzzles/Food/Food8.asset using Guid(ca9d8eb1c3b3af644a622f77a9f44225) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08cabea5c6a5202bc5dce3aa0a864a5a') in 0.007621 seconds
-  Import took 0.059982 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 188.779084 seconds.
-  path: Assets/Resources/Data/Puzzles/Food/Food9.asset
-  artifactKey: Guid(7fa9f2f294902fe4baa18e3b7e8c9fae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Data/Puzzles/Food/Food9.asset using Guid(7fa9f2f294902fe4baa18e3b7e8c9fae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '090a3a6e71eb5e60b2bcde27cae45349') in 0.005451 seconds
-  Import took 0.016858 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 158.041881 seconds.
-  path: Assets/Resources/Data/Puzzles/Food/Food10.asset
-  artifactKey: Guid(444994619aac8d043bf83f00a2143821) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Data/Puzzles/Food/Food10.asset using Guid(444994619aac8d043bf83f00a2143821) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89647a514b5f4844e61dda69d9695f98') in 0.005312 seconds
-  Import took 0.028222 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 160.258622 seconds.
-  path: Assets/Resources/Data/Puzzles/Food/Food1.asset
-  artifactKey: Guid(912e3d0cf98856e438193ec2c6b768e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Data/Puzzles/Food/Food1.asset using Guid(912e3d0cf98856e438193ec2c6b768e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2df7337ca905dbd97f34e273ecb1242d') in 0.005991 seconds
-  Import took 0.086147 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000961 seconds.
-  path: Assets/Resources/Data/Puzzles/Food/Food2.asset
-  artifactKey: Guid(561c85936bc576148b70dfce7ecd96b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Data/Puzzles/Food/Food2.asset using Guid(561c85936bc576148b70dfce7ecd96b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a8fdcddae83e79e9988f0d339a92e3e') in 0.005346 seconds
-  Import took 0.052492 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001222 seconds.
-  path: Assets/Resources/Data/Puzzles/Food/Food7.asset
-  artifactKey: Guid(4e8856ec1e6a691419147108d866e012) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Data/Puzzles/Food/Food7.asset using Guid(4e8856ec1e6a691419147108d866e012) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb51df47be6e323e5d98310319309423') in 0.008037 seconds
-  Import took 0.032036 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000877 seconds.
-  path: Assets/Resources/Data/Puzzles/Food/Food10.asset
-  artifactKey: Guid(444994619aac8d043bf83f00a2143821) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Data/Puzzles/Food/Food10.asset using Guid(444994619aac8d043bf83f00a2143821) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd408c56d46c836cca41fc20b94c94b7e') in 0.007946 seconds
-  Import took 0.122115 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000897 seconds.
-  path: Assets/Resources/Data/Puzzles/Food/Food5.asset
-  artifactKey: Guid(355a019dfdaab8849b3cae1386ec67fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Data/Puzzles/Food/Food5.asset using Guid(355a019dfdaab8849b3cae1386ec67fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1542749d82d13bf4b35242d2e7beb27') in 0.005569 seconds
-  Import took 0.047774 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001028 seconds.
-  path: Assets/Resources/Data/Puzzles/Food/Food10.asset
-  artifactKey: Guid(444994619aac8d043bf83f00a2143821) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Data/Puzzles/Food/Food10.asset using Guid(444994619aac8d043bf83f00a2143821) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd408c56d46c836cca41fc20b94c94b7e') in 0.006286 seconds
-  Import took 0.047027 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000870 seconds.
-  path: Assets/Resources/Data/Puzzles/Food/Food4.asset
-  artifactKey: Guid(c9f6702b8cfcbf34cacbb8b9ac0b182f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Data/Puzzles/Food/Food4.asset using Guid(c9f6702b8cfcbf34cacbb8b9ac0b182f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a26c85501094ec2d382c79b3bd29fc7a') in 0.007047 seconds
-  Import took 0.054339 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000950 seconds.
-  path: Assets/Resources/Data/Puzzles/Food/Food6.asset
-  artifactKey: Guid(0c2e39d3bc9d61540845fdb96ca46cf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Data/Puzzles/Food/Food6.asset using Guid(0c2e39d3bc9d61540845fdb96ca46cf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e840fb03f47cc85b8a9365a590d1c17c') in 0.006458 seconds
-  Import took 0.068385 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000875 seconds.
-  path: Assets/Resources/Data/Puzzles/Food/Food8.asset
-  artifactKey: Guid(ca9d8eb1c3b3af644a622f77a9f44225) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Data/Puzzles/Food/Food8.asset using Guid(ca9d8eb1c3b3af644a622f77a9f44225) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48d419515b91c4e662a9054fd5cdbb7b') in 0.005726 seconds
-  Import took 0.049472 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000923 seconds.
-  path: Assets/Resources/Data/Puzzles/Food/Food3.asset
-  artifactKey: Guid(608c03416f7fc134790584314dd9115d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Data/Puzzles/Food/Food3.asset using Guid(608c03416f7fc134790584314dd9115d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b90b32a0f5ffde310243bea9915acbc3') in 0.006204 seconds
-  Import took 0.167987 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001957 seconds.
-  path: Assets/Resources/Data/Puzzles/Food/Food9.asset
-  artifactKey: Guid(7fa9f2f294902fe4baa18e3b7e8c9fae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Data/Puzzles/Food/Food9.asset using Guid(7fa9f2f294902fe4baa18e3b7e8c9fae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '505ed307c57cf8bc4c56cf03bd6df295') in 0.047833 seconds
-  Import took 0.196123 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 111.537550 seconds.
-  path: Assets/Resources/Data/Puzzles/Hobbies/Hobbies1.asset
-  artifactKey: Guid(fc7d0399d2342914aaa44cc0afe18afe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Data/Puzzles/Hobbies/Hobbies1.asset using Guid(fc7d0399d2342914aaa44cc0afe18afe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9219e5725c88abb82027ae5eb4266fd') in 0.005881 seconds
-  Import took 1.233800 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 64.946391 seconds.
-  path: Assets/Resources/Data/Puzzles/Hobbies/Hobbies2.asset
-  artifactKey: Guid(17b6d08da4a3ccd44ac26db57f10a83e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Data/Puzzles/Hobbies/Hobbies2.asset using Guid(17b6d08da4a3ccd44ac26db57f10a83e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67e75a3c6fac87710a977e9bcc4e80b5') in 0.005926 seconds
-  Import took 0.029057 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 33.807525 seconds.
-  path: Assets/Resources/Data/Puzzles/Hobbies/Hobbies3.asset
-  artifactKey: Guid(6af4da15d516c644dbb1cc6b6174c100) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Data/Puzzles/Hobbies/Hobbies3.asset using Guid(6af4da15d516c644dbb1cc6b6174c100) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05ea62e1c5410e0e5c737e3ba6af7fa2') in 0.006767 seconds
-  Import took 0.019137 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 58.216922 seconds.
-  path: Assets/Resources/Data/Puzzles/Hobbies/Hobbies4.asset
-  artifactKey: Guid(6e787a59a6cb3c64696ff5e340280ac5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Data/Puzzles/Hobbies/Hobbies4.asset using Guid(6e787a59a6cb3c64696ff5e340280ac5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69b5f372e9bf3c0afe8936994a823e0a') in 0.006237 seconds
-  Import took 0.034850 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 53.110740 seconds.
-  path: Assets/Resources/Data/Puzzles/Hobbies/Hobbies5.asset
-  artifactKey: Guid(21daeab1bb02d2243baa166d224b2f90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Data/Puzzles/Hobbies/Hobbies5.asset using Guid(21daeab1bb02d2243baa166d224b2f90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3681d6f7d8060f04be5491f3f06f7f7e') in 0.005398 seconds
-  Import took 0.038843 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 95.422914 seconds.
-  path: Assets/Resources/Data/Puzzles/Hobbies/Hobbies6.asset
-  artifactKey: Guid(2381241384f02c84db4f574549fcd8df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Data/Puzzles/Hobbies/Hobbies6.asset using Guid(2381241384f02c84db4f574549fcd8df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5454b02b31e1c3de94b0a38c5286c5c') in 0.005911 seconds
-  Import took 0.116023 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 115.060992 seconds.
-  path: Assets/Resources/Data/Puzzles/Hobbies/Hobbies7.asset
-  artifactKey: Guid(17b6932de33f9e8438d6b00326029af7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Data/Puzzles/Hobbies/Hobbies7.asset using Guid(17b6932de33f9e8438d6b00326029af7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53197e0b1bf0ec9dda7f4c217a98db85') in 0.006174 seconds
-  Import took 0.025526 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 164.992381 seconds.
-  path: Assets/Resources/Data/Puzzles/Hobbies/Hobbies8.asset
-  artifactKey: Guid(4dd15efc96d51c64fb6b41758fcda5a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Data/Puzzles/Hobbies/Hobbies8.asset using Guid(4dd15efc96d51c64fb6b41758fcda5a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48e88f5c0141c1f7a5ba943277091c1a') in 0.005430 seconds
-  Import took 0.015903 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 195.051729 seconds.
-  path: Assets/Resources/Data/Puzzles/Hobbies/Hobbies1.asset
-  artifactKey: Guid(fc7d0399d2342914aaa44cc0afe18afe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Data/Puzzles/Hobbies/Hobbies1.asset using Guid(fc7d0399d2342914aaa44cc0afe18afe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0813e612c946dcf708f2a1b62b73b303') in 0.008614 seconds
-  Import took 0.021416 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000933 seconds.
-  path: Assets/Resources/Data/Puzzles/Hobbies/Hobbies2.asset
-  artifactKey: Guid(17b6d08da4a3ccd44ac26db57f10a83e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Data/Puzzles/Hobbies/Hobbies2.asset using Guid(17b6d08da4a3ccd44ac26db57f10a83e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c419cb7c184975a0b0720b0c3a99d3c2') in 0.007390 seconds
-  Import took 0.084721 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001922 seconds.
-  path: Assets/Resources/Data/Puzzles/Hobbies/Hobbies7.asset
-  artifactKey: Guid(17b6932de33f9e8438d6b00326029af7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Data/Puzzles/Hobbies/Hobbies7.asset using Guid(17b6932de33f9e8438d6b00326029af7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7cfe7aaa1787bab12020b4fb4c66181d') in 0.005504 seconds
-  Import took 0.048657 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001390 seconds.
-  path: Assets/Resources/Data/Puzzles/Hobbies/Hobbies3.asset
-  artifactKey: Guid(6af4da15d516c644dbb1cc6b6174c100) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Data/Puzzles/Hobbies/Hobbies3.asset using Guid(6af4da15d516c644dbb1cc6b6174c100) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e39de0d2e083438b27982a270ecdd06a') in 0.006808 seconds
-  Import took 0.057679 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000950 seconds.
-  path: Assets/Resources/Data/Puzzles/Hobbies/Hobbies6.asset
-  artifactKey: Guid(2381241384f02c84db4f574549fcd8df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Data/Puzzles/Hobbies/Hobbies6.asset using Guid(2381241384f02c84db4f574549fcd8df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af9690d18612ca1983920111e29c956c') in 0.006096 seconds
-  Import took 0.019682 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001333 seconds.
-  path: Assets/Resources/Data/Puzzles/Hobbies/Hobbies5.asset
-  artifactKey: Guid(21daeab1bb02d2243baa166d224b2f90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Data/Puzzles/Hobbies/Hobbies5.asset using Guid(21daeab1bb02d2243baa166d224b2f90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da40d05f17bf594675c06de015b1f325') in 0.010081 seconds
-  Import took 0.087169 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001129 seconds.
-  path: Assets/Resources/Data/Puzzles/Hobbies/Hobbies4.asset
-  artifactKey: Guid(6e787a59a6cb3c64696ff5e340280ac5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Data/Puzzles/Hobbies/Hobbies4.asset using Guid(6e787a59a6cb3c64696ff5e340280ac5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afd29e4d4f5742636b7a34953463dab7') in 0.006127 seconds
-  Import took 0.019475 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001455 seconds.
-  path: Assets/Resources/Data/Puzzles/Hobbies/Hobbies8.asset
-  artifactKey: Guid(4dd15efc96d51c64fb6b41758fcda5a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Data/Puzzles/Hobbies/Hobbies8.asset using Guid(4dd15efc96d51c64fb6b41758fcda5a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa77cc4d05b23acc16a6e3774d89321c') in 0.007416 seconds
-  Import took 0.077164 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 9.506940 seconds.
-  path: Assets/Resources/Data/GameLevelDatas.asset
-  artifactKey: Guid(789de4d0251c9a6409ace7cb78c82754) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Data/GameLevelDatas.asset using Guid(789de4d0251c9a6409ace7cb78c82754) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ed9ff01836278e34428a4f0c2fdb29b') in 0.033458 seconds
-  Import took 0.151558 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 18.682927 seconds.
-  path: Assets/Resources/Data/GameLevelDatas.asset
-  artifactKey: Guid(789de4d0251c9a6409ace7cb78c82754) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Data/GameLevelDatas.asset using Guid(789de4d0251c9a6409ace7cb78c82754) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f5c1f5e8308cd7fe0fc568b1c058ebe') in 0.046880 seconds
-  Import took 0.153035 seconds .
+  path: Assets/Scenes/GameScene.unity
+  artifactKey: Guid(78071f2c7f3b89c4bb406ad87097976c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/GameScene.unity using Guid(78071f2c7f3b89c4bb406ad87097976c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b419901f0923c2080a5bb302e69cbe16') in 0.048822 seconds
+  Import took 0.052406 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.011615 seconds.
+Registered in 0.009933 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.57 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.59 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.490 seconds
+- Completed reload, in  1.645 seconds
 Platform modules already initialized, skipping
 Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 0.68 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.52 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2111 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 94.0 MB.
-System memory in use after: 94.0 MB.
+System memory in use before: 94.1 MB.
+System memory in use after: 94.1 MB.
 
 Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 2556.
-Total: 3.285000 ms (FindLiveObjects: 0.336100 ms CreateObjectMapping: 0.120900 ms MarkObjects: 2.672500 ms  DeleteObjects: 0.153300 ms)
+Total: 2.602200 ms (FindLiveObjects: 0.179500 ms CreateObjectMapping: 0.089000 ms MarkObjects: 2.173000 ms  DeleteObjects: 0.159300 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
 ========================================================================
-Received Import Request.
-  Time since last request: 84.471738 seconds.
-  path: Assets/Resources/Data/Puzzles/Games/Games2.asset
-  artifactKey: Guid(42b4027cb19695841a28f91e35eff7cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Data/Puzzles/Games/Games2.asset using Guid(42b4027cb19695841a28f91e35eff7cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3817859e2b82c4e371c0fc082ec1e1c') in 0.022228 seconds
-  Import took 0.069030 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.311068 seconds.
-  path: Assets/Resources/Data/Puzzles/Games/Games3.asset
-  artifactKey: Guid(90d6b71c20edc444a81891c05bebb9e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Data/Puzzles/Games/Games3.asset using Guid(90d6b71c20edc444a81891c05bebb9e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eefa60fcee28615abf9d6e82fbcebf80') in 0.007129 seconds
-  Import took 0.078732 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 100.179303 seconds.
-  path: Assets/Resources/Data/Puzzles/Games/Games4.asset
-  artifactKey: Guid(7f809273fbfbe384c9cb2e04b1dc9c96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Data/Puzzles/Games/Games4.asset using Guid(7f809273fbfbe384c9cb2e04b1dc9c96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0613c7231c9c2987f27af374c94452dc') in 0.060407 seconds
-  Import took 0.071291 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 110.462005 seconds.
-  path: Assets/Resources/Data/Puzzles/Games/Games5.asset
-  artifactKey: Guid(c5f402a73ee67af469b287eeedcc5808) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Data/Puzzles/Games/Games5.asset using Guid(c5f402a73ee67af469b287eeedcc5808) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc67ee3fa95803858b1c7a7173675bc4') in 0.006620 seconds
-  Import took 0.101087 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 9.293540 seconds.
-  path: Assets/Resources/Data/Puzzles/Games/Games2.asset
-  artifactKey: Guid(42b4027cb19695841a28f91e35eff7cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Data/Puzzles/Games/Games2.asset using Guid(42b4027cb19695841a28f91e35eff7cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba9a9cc5c197b05387d271cc9e652280') in 0.009541 seconds
-  Import took 0.022284 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001175 seconds.
-  path: Assets/Resources/Data/Puzzles/Games/Games3.asset
-  artifactKey: Guid(90d6b71c20edc444a81891c05bebb9e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Data/Puzzles/Games/Games3.asset using Guid(90d6b71c20edc444a81891c05bebb9e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b110836a714204c0a5817b5de279ebd5') in 0.012467 seconds
-  Import took 0.076903 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001130 seconds.
-  path: Assets/Resources/Data/Puzzles/Games/Games4.asset
-  artifactKey: Guid(7f809273fbfbe384c9cb2e04b1dc9c96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Data/Puzzles/Games/Games4.asset using Guid(7f809273fbfbe384c9cb2e04b1dc9c96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f22eb38578d357a39d3f0bb9480fa11e') in 0.006165 seconds
-  Import took 0.167868 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 90.959914 seconds.
-  path: Assets/Resources/Data/Puzzles/Games/Games5.asset
-  artifactKey: Guid(c5f402a73ee67af469b287eeedcc5808) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Data/Puzzles/Games/Games5.asset using Guid(c5f402a73ee67af469b287eeedcc5808) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56b10418e4773a1792e9e9833fc81ce7') in 0.007019 seconds
-  Import took 0.073494 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.042505 seconds.
-  path: Assets/Resources/Data/Puzzles/Games/Games5.asset
-  artifactKey: Guid(c5f402a73ee67af469b287eeedcc5808) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Data/Puzzles/Games/Games5.asset using Guid(c5f402a73ee67af469b287eeedcc5808) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56b10418e4773a1792e9e9833fc81ce7') in 0.006091 seconds
-  Import took 0.026448 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.819844 seconds.
-  path: Assets/Resources/Data/Puzzles/Games/Games6.asset
-  artifactKey: Guid(67e51856f5f39bb429d77835a5592b9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Data/Puzzles/Games/Games6.asset using Guid(67e51856f5f39bb429d77835a5592b9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92efdb17c98837feaa4b8be862679150') in 0.006624 seconds
-  Import took 0.016466 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.006939 seconds.
-  path: Assets/Resources/Data/Puzzles/Games/Games6.asset
-  artifactKey: Guid(67e51856f5f39bb429d77835a5592b9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Data/Puzzles/Games/Games6.asset using Guid(67e51856f5f39bb429d77835a5592b9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92efdb17c98837feaa4b8be862679150') in 0.006347 seconds
-  Import took 0.017319 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 107.347951 seconds.
-  path: Assets/Resources/Data/Puzzles/Games/Games6.asset
-  artifactKey: Guid(67e51856f5f39bb429d77835a5592b9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Data/Puzzles/Games/Games6.asset using Guid(67e51856f5f39bb429d77835a5592b9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4ded92926b5d9d5ee1e30ab26173b02') in 0.006635 seconds
-  Import took 0.053291 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 25.213491 seconds.
-  path: Assets/Resources/Data/GameLevelDatas.asset
-  artifactKey: Guid(789de4d0251c9a6409ace7cb78c82754) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Data/GameLevelDatas.asset using Guid(789de4d0251c9a6409ace7cb78c82754) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '569b039343b24130fcc9e4ed9943eef6') in 0.047958 seconds
-  Import took 0.059281 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 34.635046 seconds.
-  path: Assets/Scenes/GameScene.unity
-  artifactKey: Guid(78071f2c7f3b89c4bb406ad87097976c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/GameScene.unity using Guid(78071f2c7f3b89c4bb406ad87097976c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '699daaaf33286bd5bfd58a0a9e174068') in 0.005802 seconds
-  Import took 0.157964 seconds .
-
-========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.012851 seconds.
+Registered in 0.006678 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.70 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.99 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.671 seconds
+- Completed reload, in  1.921 seconds
 Platform modules already initialized, skipping
 Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 0.59 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1.03 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2111 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 94.1 MB.
 System memory in use after: 94.1 MB.
 
 Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 2560.
-Total: 3.795800 ms (FindLiveObjects: 0.317800 ms CreateObjectMapping: 0.167000 ms MarkObjects: 3.090600 ms  DeleteObjects: 0.219000 ms)
+Total: 4.133300 ms (FindLiveObjects: 0.301300 ms CreateObjectMapping: 0.153000 ms MarkObjects: 3.487100 ms  DeleteObjects: 0.190400 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
 ========================================================================
 Received Import Request.
-  Time since last request: 230.884213 seconds.
-  path: Assets/Sprites/Text/TextPrefabs/Games.prefab
-  artifactKey: Guid(50c4ff75b9d6b9841b5f6b4d3edf126d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Text/TextPrefabs/Games.prefab using Guid(50c4ff75b9d6b9841b5f6b4d3edf126d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '892032300e80bb51173bbf06b3a3867a') in 0.070897 seconds
-  Import took 0.088245 seconds .
+  Time since last request: 816.877597 seconds.
+  path: Assets/Scenes/GameScene.unity
+  artifactKey: Guid(78071f2c7f3b89c4bb406ad87097976c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/GameScene.unity using Guid(78071f2c7f3b89c4bb406ad87097976c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9bf6f9b28d001843a02283609dbb897a') in 0.024915 seconds
+  Import took 0.035734 seconds .
 
 ========================================================================
-Received Import Request.
-  Time since last request: 0.001406 seconds.
-  path: Assets/Sprites/Text/TextPrefabs/Hobbies.prefab
-  artifactKey: Guid(42dc1f351817d0e429b0e0e3d50f82f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Text/TextPrefabs/Hobbies.prefab using Guid(42dc1f351817d0e429b0e0e3d50f82f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f87183efad754238bfa87153b5395ae1') in 0.038531 seconds
-  Import took 0.263535 seconds .
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006706 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.57 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.861 seconds
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.58 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2111 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 94.2 MB.
+System memory in use after: 94.1 MB.
 
+Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 2564.
+Total: 3.880100 ms (FindLiveObjects: 0.391400 ms CreateObjectMapping: 0.520200 ms MarkObjects: 2.795200 ms  DeleteObjects: 0.170900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
 ========================================================================
-Received Import Request.
-  Time since last request: 0.001241 seconds.
-  path: Assets/Sprites/Text/TextPrefabs/Sports.prefab
-  artifactKey: Guid(2c6ee9729734b3748b9ac0368b69b4a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Text/TextPrefabs/Sports.prefab using Guid(2c6ee9729734b3748b9ac0368b69b4a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b953b2d990fed73e5e96286985fbd198') in 0.008045 seconds
-  Import took 0.044551 seconds .
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007411 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.56 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.645 seconds
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.92 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2111 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 94.2 MB.
+System memory in use after: 94.2 MB.
 
-========================================================================
-Received Import Request.
-  Time since last request: 0.001222 seconds.
-  path: Assets/Sprites/Text/TextPrefabs/Animals.prefab
-  artifactKey: Guid(f53bbe67c100a2e458eadc9ebb15a9c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Text/TextPrefabs/Animals.prefab using Guid(f53bbe67c100a2e458eadc9ebb15a9c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59b6f52933fa9fd7d32f70e175de705d') in 0.031901 seconds
-  Import took 0.159277 seconds .
+Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 2568.
+Total: 5.293000 ms (FindLiveObjects: 0.266800 ms CreateObjectMapping: 0.123300 ms MarkObjects: 4.670400 ms  DeleteObjects: 0.230700 ms)
 
-========================================================================
-Received Import Request.
-  Time since last request: 0.001145 seconds.
-  path: Assets/Sprites/Text/TextPrefabs/Movie.prefab
-  artifactKey: Guid(1bec997864047254ba6b4ef72ac3aee9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Text/TextPrefabs/Movie.prefab using Guid(1bec997864047254ba6b4ef72ac3aee9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbf9a00763c9f46e9f5ba6669cf5fec5') in 0.007326 seconds
-  Import took 0.072105 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001220 seconds.
-  path: Assets/Sprites/Text/TextPrefabs/Science.prefab
-  artifactKey: Guid(dac5c4ceb117ce042ab46fdd726f84e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Text/TextPrefabs/Science.prefab using Guid(dac5c4ceb117ce042ab46fdd726f84e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1c9ed8c4f624eb821df2beb49417684') in 0.009379 seconds
-  Import took 0.089720 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001525 seconds.
-  path: Assets/Sprites/Text/TextPrefabs/Food.prefab
-  artifactKey: Guid(4abd93ea5e4bcc240ad69db876f09004) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Text/TextPrefabs/Food.prefab using Guid(4abd93ea5e4bcc240ad69db876f09004) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca99e4ab8f35d2975194975c195cf80c') in 0.034379 seconds
-  Import took 0.151421 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001205 seconds.
-  path: Assets/Sprites/Text/TextPrefabs/Countries.prefab
-  artifactKey: Guid(b98c9d5119acb8f4795cb1c951ad33cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Text/TextPrefabs/Countries.prefab using Guid(b98c9d5119acb8f4795cb1c951ad33cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a09561c7a95f70db5cb38748f0ae0ccc') in 0.008569 seconds
-  Import took 0.195022 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000908 seconds.
-  path: Assets/Sprites/Text/TextPrefabs/Technology.prefab
-  artifactKey: Guid(7c8c4a9ed7d00d744bf6b21948ba708a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Text/TextPrefabs/Technology.prefab using Guid(7c8c4a9ed7d00d744bf6b21948ba708a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '038cf81ac04550e79fe50e8ae5240832') in 0.010029 seconds
-  Import took 0.066583 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001190 seconds.
-  path: Assets/Sprites/Text/TextPrefabs/Toys.prefab
-  artifactKey: Guid(69322d54b6ac6874ebfecc7763db9d0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Text/TextPrefabs/Toys.prefab using Guid(69322d54b6ac6874ebfecc7763db9d0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08ffd633c29238fcfc22db8fbb172159') in 0.008576 seconds
-  Import took 0.054008 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 8.053197 seconds.
-  path: Assets/Scenes/CategoryScene.unity
-  artifactKey: Guid(cd3d28f365bdd4c47b2cce79911f07bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/CategoryScene.unity using Guid(cd3d28f365bdd4c47b2cce79911f07bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd216ee40b0fff76280375dbec4859f46') in 0.050136 seconds
-  Import took 0.093252 seconds .
-
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000

@@ -23,7 +23,7 @@ MonoBehaviour:
     Row:
     - A
     - I
-    - N
+    - M
     - P
     - A
     - C
@@ -139,6 +139,7 @@ MonoBehaviour:
     - D
     - B
     - P
+  cameraSize: 15
   SearcingWords:
   - Found: 0
     Word: PREDATOR
@@ -149,7 +150,7 @@ MonoBehaviour:
   - Found: 0
     Word: BETELGEUSE
   - Found: 0
-    Word: ARCTURUS
+    Word: ARCTARUS
   - Found: 0
     Word: IMPACT
   - Found: 0

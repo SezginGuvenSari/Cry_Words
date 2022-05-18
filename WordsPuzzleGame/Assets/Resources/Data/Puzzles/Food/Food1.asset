@@ -54,6 +54,7 @@ MonoBehaviour:
     - A
     - Q
     - O
+  cameraSize: 8
   SearcingWords:
   - Found: 0
     Word: CAKE

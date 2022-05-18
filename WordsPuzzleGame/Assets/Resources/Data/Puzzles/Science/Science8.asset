@@ -139,6 +139,7 @@ MonoBehaviour:
     - S
     - Y
     - S
+  cameraSize: 15
   SearcingWords:
   - Found: 0
     Word: KNOT

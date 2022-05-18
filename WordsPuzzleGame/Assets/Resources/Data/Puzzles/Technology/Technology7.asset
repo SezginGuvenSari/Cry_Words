@@ -99,6 +99,7 @@ MonoBehaviour:
     - E
     - G
     - Y
+  cameraSize: 12
   SearcingWords:
   - Found: 0
     Word: GUNS

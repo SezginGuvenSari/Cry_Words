@@ -54,6 +54,7 @@ MonoBehaviour:
     - B
     - T
     - E
+  cameraSize: 8
   SearcingWords:
   - Found: 0
     Word: FIJI

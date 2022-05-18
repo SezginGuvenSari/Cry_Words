@@ -54,6 +54,7 @@ MonoBehaviour:
     - L
     - J
     - A
+  cameraSize: 8
   SearcingWords:
   - Found: 0
     Word: DUCK

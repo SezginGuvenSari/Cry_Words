@@ -67,6 +67,7 @@ MonoBehaviour:
     - Y
     - J
     - Y
+  cameraSize: 10
   SearcingWords:
   - Found: 0
     Word: DATA

@@ -139,6 +139,7 @@ MonoBehaviour:
     - F
     - B
     - Y
+  cameraSize: 15
   SearcingWords:
   - Found: 0
     Word: CANADA

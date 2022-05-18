@@ -92,13 +92,14 @@ MonoBehaviour:
   - Size: 8
     Row:
     - Y
-    - K
-    - F
+    - L
+    - A
     - S
-    - V
     - E
+    - R
     - E
     - I
+  cameraSize: 12
   SearcingWords:
   - Found: 0
     Word: LIGHT
@@ -109,4 +110,4 @@ MonoBehaviour:
   - Found: 0
     Word: LASER
   - Found: 0
-    Word: ' OCEAN'
+    Word: OCEAN

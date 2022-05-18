@@ -67,6 +67,7 @@ MonoBehaviour:
     - Z
     - A
     - S
+  cameraSize: 10
   SearcingWords:
   - Found: 0
     Word: HONEY

@@ -27,7 +27,6 @@ ScriptsOnlyBuild:
     - UnityEditor.U2D.Animation.BoneGizmo
     Unity.2D.IK.Editor.dll:
     - UnityEditor.U2D.IK.IKEditorManager
-    - UnityEditor.U2D.IK.IKGizmos
     Unity.2D.IK.Runtime.dll:
     - UnityEditor.U2D.IK.IKEditorManagerHelper
     Unity.2D.Tilemap.Editor.dll:
@@ -151,6 +150,8 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1462}
     - Class: 114
+      Script: {instanceID: 1464}
+    - Class: 114
       Script: {instanceID: 1466}
     - Class: 114
       Script: {instanceID: 1884}
@@ -201,6 +202,10 @@ ScriptsOnlyBuild:
     - Class: 157
       Script: {instanceID: 0}
     - Class: 196
+      Script: {instanceID: 0}
+    - Class: 198
+      Script: {instanceID: 0}
+    - Class: 199
       Script: {instanceID: 0}
     - Class: 212
       Script: {instanceID: 0}
@@ -416,7 +421,7 @@ ScriptsOnlyBuild:
     className: WordsGrid
   - hash:
       serializedVersion: 2
-      Hash: dd71290fcc27a99f8dce44584206bdce
+      Hash: 1b0f114b46dcf90ac5f88fbbe5f2f8c3
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: BoardData
@@ -608,7 +613,7 @@ ScriptsOnlyBuild:
     className: MarkerTrack
   - hash:
       serializedVersion: 2
-      Hash: 455303d68229b3c0092eb9739e11cbfe
+      Hash: 86895cb4d3c2f013e1bc1455e52c83f4
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: GameUtility
@@ -953,4 +958,4 @@ ScriptsOnlyBuild:
   - Assets/Scenes/MainMenu.unity
   - Assets/Scenes/GameScene.unity
   - Assets/Scenes/CategoryScene.unity
-  playerPath: D:/Unity/Deneme1.apk
+  playerPath: D:/Unity/CryWords.apk

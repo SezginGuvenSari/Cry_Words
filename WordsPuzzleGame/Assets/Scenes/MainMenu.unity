@@ -304,6 +304,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   settigsPanel: {fileID: 1869266867}
+  currentGameData: {fileID: 11400000, guid: 82fc5c740eaf2384bbae505dd1a8d38c, type: 2}
 --- !u!20 &519420031
 Camera:
   m_ObjectHideFlags: 0
@@ -815,7 +816,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 21.77002, y: -11.655029}
+  m_AnchoredPosition: {x: 21.77002, y: -11.655151}
   m_SizeDelta: {x: 256.46, y: 0}
   m_Pivot: {x: 0, y: 0}
 --- !u!114 &869034491

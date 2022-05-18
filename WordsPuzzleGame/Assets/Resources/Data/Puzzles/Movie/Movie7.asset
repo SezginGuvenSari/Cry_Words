@@ -99,6 +99,7 @@ MonoBehaviour:
     - T
     - S
     - T
+  cameraSize: 12
   SearcingWords:
   - Found: 0
     Word: TRAILER

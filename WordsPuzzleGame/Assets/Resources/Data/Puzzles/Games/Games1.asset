@@ -54,6 +54,7 @@ MonoBehaviour:
     - H
     - Z
     - E
+  cameraSize: 8
   SearcingWords:
   - Found: 0
     Word: LOSE

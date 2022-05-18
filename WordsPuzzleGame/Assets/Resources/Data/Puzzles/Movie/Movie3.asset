@@ -67,6 +67,7 @@ MonoBehaviour:
     - M
     - N
     - W
+  cameraSize: 10
   SearcingWords:
   - Found: 0
     Word: SET

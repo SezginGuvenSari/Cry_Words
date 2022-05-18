@@ -139,6 +139,7 @@ MonoBehaviour:
     - I
     - D
     - M
+  cameraSize: 15
   SearcingWords:
   - Found: 0
     Word: JPEG

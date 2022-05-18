@@ -139,6 +139,7 @@ MonoBehaviour:
     - P
     - O
     - V
+  cameraSize: 15
   SearcingWords:
   - Found: 0
     Word: ICELAND

@@ -99,6 +99,7 @@ MonoBehaviour:
     - N
     - E
     - D
+  cameraSize: 12
   SearcingWords:
   - Found: 0
     Word: BELGIUM

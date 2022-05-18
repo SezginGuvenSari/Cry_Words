@@ -49,6 +49,7 @@ public class BoardData : ScriptableObject
     public int Colums = 0;
     public int Rows = 0;
     public BoardRow[] Board;
+    public int cameraSize;
     public List<SearcingWord> SearcingWords = new List<SearcingWord>();
 
     public void ClearData()
@@ -79,4 +80,5 @@ public class BoardData : ScriptableObject
     }
 
     
+
 }

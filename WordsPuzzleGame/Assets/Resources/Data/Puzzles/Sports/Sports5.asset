@@ -67,6 +67,7 @@ MonoBehaviour:
     - E
     - L
     - C
+  cameraSize: 10
   SearcingWords:
   - Found: 0
     Word: RULES

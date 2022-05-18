@@ -99,6 +99,7 @@ MonoBehaviour:
     - E
     - C
     - A
+  cameraSize: 12
   SearcingWords:
   - Found: 0
     Word: COOL

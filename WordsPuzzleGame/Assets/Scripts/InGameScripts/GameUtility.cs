@@ -7,12 +7,17 @@ using UnityEngine.UI;
 public class GameUtility : MonoBehaviour
 {
     [SerializeField] GameObject settigsPanel;
-  
+
+    public GameData currentGameData;
+    private void Start()
+    {
+        Camera.main.orthographicSize = currentGameData.selectedBoardData.cameraSize;
+    }
     public void LoadScene(string sceneName)
     {
         SceneManager.LoadScene(sceneName);
     }
-
+   
     public void Exit()
     {
         Application.Quit();

@@ -99,6 +99,7 @@ MonoBehaviour:
     - R
     - Y
     - D
+  cameraSize: 12
   SearcingWords:
   - Found: 0
     Word: BRAZIL

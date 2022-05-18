@@ -67,6 +67,7 @@ MonoBehaviour:
     - M
     - Y
     - A
+  cameraSize: 10
   SearcingWords:
   - Found: 0
     Word: ROBOTS

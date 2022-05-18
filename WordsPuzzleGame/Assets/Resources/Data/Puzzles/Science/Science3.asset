@@ -67,6 +67,7 @@ MonoBehaviour:
     - K
     - D
     - Y
+  cameraSize: 10
   SearcingWords:
   - Found: 0
     Word: ENERGY

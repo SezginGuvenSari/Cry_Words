@@ -99,6 +99,7 @@ MonoBehaviour:
     - U
     - R
     - T
+  cameraSize: 12
   SearcingWords:
   - Found: 0
     Word: "D\u0130NOSAUR"

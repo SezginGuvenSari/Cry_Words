@@ -67,6 +67,7 @@ MonoBehaviour:
     - I
     - N
     - G
+  cameraSize: 10
   SearcingWords:
   - Found: 0
     Word: JUDO

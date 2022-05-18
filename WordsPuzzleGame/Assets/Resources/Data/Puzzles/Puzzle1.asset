@@ -99,9 +99,15 @@ MonoBehaviour:
     - J
     - V
     - Y
+  cameraSize: 8
   SearcingWords:
-  - Word: FUTBOL
-  - Word: BASKETBOL
-  - Word: VOLEYBOL
-  - Word: HENTBOL
-  - Word: SUTOPU
+  - Found: 0
+    Word: FUTBOL
+  - Found: 0
+    Word: BASKETBOL
+  - Found: 0
+    Word: VOLEYBOL
+  - Found: 0
+    Word: HENTBOL
+  - Found: 0
+    Word: SUTOPU

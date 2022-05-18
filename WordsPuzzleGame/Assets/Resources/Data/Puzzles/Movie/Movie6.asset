@@ -22,39 +22,39 @@ MonoBehaviour:
   - Size: 8
     Row:
     - P
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
+    - C
+    - F
+    - I
+    - R
+    - X
+    - V
     - D
   - Size: 8
     Row:
     - R
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
+    - P
+    - N
+    - Q
+    - L
+    - X
+    - L
     - I
   - Size: 8
     Row:
     - E
-    - 
-    - 
-    - 
-    - 
-    - 
+    - E
+    - A
+    - Z
+    - I
+    - R
     - V
     - R
   - Size: 8
     Row:
     - M
-    - 
-    - 
-    - 
+    - U
+    - S
+    - D
     - B
     - O
     - I
@@ -62,21 +62,21 @@ MonoBehaviour:
   - Size: 8
     Row:
     - I
-    - 
-    - 
+    - I
+    - J
     - I
     - I
-    - 
+    - A
     - S
     - C
   - Size: 8
     Row:
     - E
-    - 
+    - F
     - U
     - C
-    - 
-    - 
+    - V
+    - G
     - U
     - T
   - Size: 8
@@ -84,21 +84,22 @@ MonoBehaviour:
     - R
     - Q
     - E
-    - 
-    - 
-    - 
+    - R
+    - X
+    - S
     - A
     - O
   - Size: 8
     Row:
     - S
-    - 
-    - 
-    - 
-    - 
-    - 
+    - K
+    - F
+    - V
+    - I
+    - B
     - L
     - R
+  cameraSize: 12
   SearcingWords:
   - Found: 0
     Word: DIRECTOR

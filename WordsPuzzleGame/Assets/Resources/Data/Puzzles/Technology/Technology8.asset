@@ -139,6 +139,7 @@ MonoBehaviour:
     - O
     - N
     - H
+  cameraSize: 15
   SearcingWords:
   - Found: 0
     Word: SOFTWARE

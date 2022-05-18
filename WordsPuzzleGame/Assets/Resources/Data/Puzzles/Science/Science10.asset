@@ -139,18 +139,19 @@ MonoBehaviour:
     - Q
     - E
     - O
+  cameraSize: 15
   SearcingWords:
-  - Found: 0
+  - Found: 1
     Word: GLOBAL
-  - Found: 0
+  - Found: 1
     Word: OBSIDIAN
-  - Found: 0
-    Word: ' SOUND'
-  - Found: 0
+  - Found: 1
     Word: LIFE
-  - Found: 0
-    Word: ' FORCE'
-  - Found: 0
+  - Found: 1
     Word: HYDROGEN
-  - Found: 0
+  - Found: 1
     Word: CLOUD
+  - Found: 1
+    Word: FORCE
+  - Found: 1
+    Word: SOUND

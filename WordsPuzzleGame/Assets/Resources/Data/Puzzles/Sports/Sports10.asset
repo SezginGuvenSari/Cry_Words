@@ -139,6 +139,7 @@ MonoBehaviour:
     - E
     - K
     - V
+  cameraSize: 15
   SearcingWords:
   - Found: 0
     Word: HOCKEY

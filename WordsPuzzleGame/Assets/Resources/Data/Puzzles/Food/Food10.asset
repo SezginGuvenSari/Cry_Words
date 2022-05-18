@@ -139,6 +139,7 @@ MonoBehaviour:
     - G
     - C
     - P
+  cameraSize: 15
   SearcingWords:
   - Found: 0
     Word: FRUIT

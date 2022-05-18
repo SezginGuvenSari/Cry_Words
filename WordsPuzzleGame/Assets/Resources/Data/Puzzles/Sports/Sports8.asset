@@ -139,6 +139,7 @@ MonoBehaviour:
     - T
     - T
     - L
+  cameraSize: 15
   SearcingWords:
   - Found: 0
     Word: PENALTY

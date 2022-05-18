@@ -82,6 +82,7 @@ MonoBehaviour:
     - L
     - E
     - C
+  cameraSize: 11
   SearcingWords:
   - Found: 0
     Word: DRUMS

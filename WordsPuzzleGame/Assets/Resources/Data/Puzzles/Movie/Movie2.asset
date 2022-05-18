@@ -54,6 +54,7 @@ MonoBehaviour:
     - W
     - R
     - G
+  cameraSize: 8
   SearcingWords:
   - Found: 0
     Word: GRIP

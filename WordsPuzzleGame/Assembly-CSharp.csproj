@@ -71,11 +71,11 @@
     <Compile Include="Assets\Scripts\InGameScripts\WinScreen.cs" />
     <Compile Include="Assets\Scripts\InGameScripts\SeachingWordsList.cs" />
     <Compile Include="Assets\Scripts\ScriptableObjects\GameData.cs" />
+    <Compile Include="Assets\Scripts\InGameScripts\SoundManager.cs" />
     <Compile Include="Assets\Scripts\InGameScripts\GameOverScreen.cs" />
+    <Compile Include="Assets\Scripts\InGameScripts\SoundToggleBtn.cs" />
     <Compile Include="Assets\Scripts\InGameScripts\SelectPuzzleButton.cs" />
     <Compile Include="Assets\Scripts\InGameScripts\GameDataSelect.cs" />
-    <Compile Include="Assets\Scripts\InGameScripts\SoundManager.cs" />
-    <Compile Include="Assets\Scripts\InGameScripts\SoundToggleBtn.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

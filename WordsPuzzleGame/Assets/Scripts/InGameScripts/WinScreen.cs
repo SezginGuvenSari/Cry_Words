@@ -42,7 +42,7 @@ public class WinScreen : MonoBehaviour
     IEnumerator PanelDelay()
     {
         yield return new WaitForSeconds(1f);
-        winPanel.GetComponent<RectTransform>().DOScale(1f, 1f).SetEase(Ease.OutBounce);
+        winPanel.GetComponent<RectTransform>().DOScale(0.8f, 1f).SetEase(Ease.OutBounce);
         winPanel.SetActive(true);
         if (SoundManager.instance.IsSoundMuted() == false)
             _source.Play();

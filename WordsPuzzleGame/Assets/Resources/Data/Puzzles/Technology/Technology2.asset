@@ -54,6 +54,7 @@ MonoBehaviour:
     - C
     - H
     - J
+  cameraSize: 8
   SearcingWords:
   - Found: 0
     Word: APP

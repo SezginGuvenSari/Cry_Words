@@ -99,6 +99,7 @@ MonoBehaviour:
     - Z
     - F
     - W
+  cameraSize: 12
   SearcingWords:
   - Found: 0
     Word: PONY

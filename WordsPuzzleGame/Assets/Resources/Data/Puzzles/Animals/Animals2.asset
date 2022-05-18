@@ -54,6 +54,7 @@ MonoBehaviour:
     - R
     - I
     - M
+  cameraSize: 8
   SearcingWords:
   - Found: 0
     Word: TOAD

@@ -67,6 +67,7 @@ MonoBehaviour:
     - C
     - M
     - A
+  cameraSize: 10
   SearcingWords:
   - Found: 0
     Word: FRANCE

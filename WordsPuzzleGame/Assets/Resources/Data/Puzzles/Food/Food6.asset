@@ -99,6 +99,7 @@ MonoBehaviour:
     - N
     - A
     - P
+  cameraSize: 12
   SearcingWords:
   - Found: 0
     Word: BAGEL

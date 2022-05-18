@@ -54,6 +54,7 @@ MonoBehaviour:
     - A
     - N
     - J
+  cameraSize: 8
   SearcingWords:
   - Found: 0
     Word: CUBA

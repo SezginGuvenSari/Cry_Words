@@ -67,6 +67,7 @@ MonoBehaviour:
     - O
     - N
     - E
+  cameraSize: 10
   SearcingWords:
   - Found: 0
     Word: SALAD

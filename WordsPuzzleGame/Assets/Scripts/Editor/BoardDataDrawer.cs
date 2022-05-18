@@ -18,6 +18,7 @@ public class BoardDataDrawer : Editor
     private void OnEnable()
     {
         InitializeReordableList(ref _DataList, "SearcingWords", "Searcing Words");
+        Camera.main.orthographicSize = GameDataInstance.cameraSize;
     }
     private void Awake()
     {
@@ -31,6 +32,7 @@ public class BoardDataDrawer : Editor
         };
         repaint = true;
         Repainter();
+        
 
     
     }
@@ -52,9 +54,7 @@ public class BoardDataDrawer : Editor
         
         serializedObject.Update();
         GameDataInstance.timeInSeconds = EditorGUILayout.FloatField("Game Timer(inSeconds)", GameDataInstance.timeInSeconds);
-        GameDataInstance.grade1=EditorGUILayout.FloatField("Grade 1 : ", GameDataInstance.grade1);
-        GameDataInstance.grade2=EditorGUILayout.FloatField("Grade 2 : ", GameDataInstance.grade2);
-        GameDataInstance.grade3=EditorGUILayout.FloatField("Grade 3 : ", GameDataInstance.grade3);
+        GameDataInstance.cameraSize = EditorGUILayout.IntField("Camera Size : ", GameDataInstance.cameraSize);
         DrawColumsRowsInputFields();
         EditorGUILayout.Space();
         ConvertToUpperButton();
@@ -221,6 +221,6 @@ public class BoardDataDrawer : Editor
         }
     }
 
-
+    
 
 }

@@ -21,39 +21,40 @@ MonoBehaviour:
   Board:
   - Size: 5
     Row:
-    - 
-    - 
-    - 
-    - 
+    - L
+    - S
+    - S
+    - U
     - G
   - Size: 5
     Row:
-    - 
-    - 
-    - 
-    - 
+    - F
+    - W
+    - M
+    - W
     - U
   - Size: 5
     Row:
-    - 
-    - 
-    - 
-    - 
+    - J
+    - D
+    - V
+    - U
     - N
   - Size: 5
     Row:
-    - 
-    - 
-    - 
-    - 
-    - 
+    - T
+    - U
+    - T
+    - G
+    - B
   - Size: 5
     Row:
     - E
     - N
     - D
-    - 
-    - 
+    - L
+    - M
+  cameraSize: 8
   SearcingWords:
   - Found: 0
     Word: GUN

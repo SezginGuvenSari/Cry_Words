@@ -54,6 +54,7 @@ MonoBehaviour:
     - B
     - C
     - W
+  cameraSize: 8
   SearcingWords:
   - Found: 0
     Word: COURT
